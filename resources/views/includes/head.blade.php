@@ -13,7 +13,7 @@
         rel="stylesheet">
 
     <!-- Bootstrap Stylesheet -->
-    <link rel="stylesheet" href="{{asset('css/bootstrap-rtl-4.4.1.min.css')}}">
+    <link rel="stylesheet" href="{{asset('css/bootstrap-4.4.1.min.css')}}">
 
 
     <!-- Sidebar Stylesheet -->
@@ -23,9 +23,9 @@
     <link rel="stylesheet" href="{{asset('css/font-awesome.min.css')}}">
 
     <!-- Custom Stylesheets -->
-    <link rel="stylesheet" href="{{asset('css/style-rtl.css')}}">
-    <link rel="stylesheet" id="cpswitch" href="{{asset('css/orange.css')}}">
-    <link rel="stylesheet" href="{{asset('css/responsive-rtl.css')}}">
+    <link rel="stylesheet" href="{{asset('css/style.css')}}">
+    <link rel="stylesheet" id="cpswitch" href="{{asset('css/red.css')}}">
+    <link rel="stylesheet" href="{{asset('css/responsive.css')}}">
 
     <!-- Owl Carousel Stylesheet -->
     <link rel="stylesheet" href="{{asset('css/owl.carousel.css')}}">

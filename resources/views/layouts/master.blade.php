@@ -15,7 +15,7 @@
                         <ul class="list-unstyled">
                             <li><span><i class="fa fa-map-marker"></i></span>29 Land St, Lorem City, CA</li>
                             <li><span><i class="fa fa-phone"></i></span>+00 123 4567</li>
-                            <li><span><i class="fa fa-envelope"></i></span>info@starhotel.com</li>
+                            <li><span><i class="fa fa-envelope"></i></span>info.sales@airflourish.com</li>
                         </ul>
                     </div><!-- end columns -->
 
@@ -44,24 +44,15 @@
 
                     <div class="col-12 col-md-6 col-lg-4 col-xl-4 footer-widget ftr-about">
                         <h3 class="footer-heading">ABOUT US</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
-                            tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
-                            quis nostrud exerci tation ullamcorper suscipit.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit.</p>
                         <ul class="social-links list-inline list-unstyled">
-                            <li class="list-inline-item"><a href="#"><span><i class="fa fa-facebook"></i></span></a>
-                            </li>
-                            <li class="list-inline-item"><a href="#"><span><i class="fa fa-twitter"></i></span></a>
-                            </li>
-                            <li class="list-inline-item"><a href="#"><span><i
-                                            class="fa fa-google-plus"></i></span></a></li>
-                            <li class="list-inline-item"><a href="#"><span><i
-                                            class="fa fa-pinterest-p"></i></span></a></li>
-                            <li class="list-inline-item"><a href="#"><span><i
-                                            class="fa fa-instagram"></i></span></a></li>
-                            <li class="list-inline-item"><a href="#"><span><i class="fa fa-linkedin"></i></span></a>
-                            </li>
-                            <li class="list-inline-item"><a href="#"><span><i
-                                            class="fa fa-youtube-play"></i></span></a></li>
+                            <li class="list-inline-item"><a href="#"><span><i class="fa fa-facebook"></i></span></a></li>
+                            <li class="list-inline-item"><a href="#"><span><i class="fa fa-twitter"></i></span></a></li>
+                            <li class="list-inline-item"><a href="#"><span><i class="fa fa-google-plus"></i></span></a></li>
+                            <li class="list-inline-item"><a href="#"><span><i class="fa fa-pinterest-p"></i></span></a></li>
+                            <li class="list-inline-item"><a href="#"><span><i class="fa fa-instagram"></i></span></a></li>
+                            <li class="list-inline-item"><a href="#"><span><i class="fa fa-linkedin"></i></span></a></li>
+                            <li class="list-inline-item"><a href="#"><span><i class="fa fa-youtube-play"></i></span></a></li>
                         </ul>
                     </div><!-- end columns -->
 
@@ -87,7 +78,6 @@
         </div><!-- end footer-bottom -->
 
     </section><!-- end footer -->
-
 
     <div id="popup-ad" class="modal fade" role="dialog">
         <div class="modal-dialog">
