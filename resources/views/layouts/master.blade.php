@@ -1,7 +1,14 @@
 @include('includes.head')
 
+<body id="main-homepage">
 
-@section('content')
+<div class="wrapper">
+    <!--====== LOADER =====-->
+    <div class="loader"></div>
+
+
+
+@yield('content')
 
     <!--======================= FOOTER =======================-->
     <section id="footer" class="ftr-heading-o ftr-heading-mgn-1">
@@ -13,8 +20,8 @@
                     <div class="col-12 col-md-6 col-lg-3 col-xl-3 footer-widget ftr-contact">
                         <h3 class="footer-heading">CONTACT US</h3>
                         <ul class="list-unstyled">
-                            <li><span><i class="fa fa-map-marker"></i></span>29 Land St, Lorem City, CA</li>
-                            <li><span><i class="fa fa-phone"></i></span>+00 123 4567</li>
+                            <li><span><i class="fa fa-map-marker"></i></span>21/23 Billings Way Oregun.</li>
+                            <li><span><i class="fa fa-phone"></i></span>+234 913 4779 928</li>
                             <li><span><i class="fa fa-envelope"></i></span>info.sales@airflourish.com</li>
                         </ul>
                     </div><!-- end columns -->
@@ -44,7 +51,7 @@
 
                     <div class="col-12 col-md-6 col-lg-4 col-xl-4 footer-widget ftr-about">
                         <h3 class="footer-heading">ABOUT US</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit.</p>
+                        <p>AIRFLOURISH Travels and Tours is a foremost Destination Management Company. We are strategically positioned to provide all of your travel and hospitality needs.</p>
                         <ul class="social-links list-inline list-unstyled">
                             <li class="list-inline-item"><a href="#"><span><i class="fa fa-facebook"></i></span></a></li>
                             <li class="list-inline-item"><a href="#"><span><i class="fa fa-twitter"></i></span></a></li>
@@ -64,7 +71,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-6 col-lg-6 col-xl-6" id="copyright">
-                        <p>© 2017 <a href="#">StarTravel</a>. All rights reserved.</p>
+                        <p>© <script>document.write(new Date().getFullYear());</script> <a href="#">AirFlourish</a>. All rights reserved.</p>
                     </div><!-- end columns -->
 
                     <div class="col-12 col-md-6 col-lg-6 col-xl-6" id="terms">
