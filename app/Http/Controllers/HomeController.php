@@ -14,4 +14,9 @@ class HomeController extends Controller
       $data['page_title'] = 'Home';
       return view('pages.home',$data);
     }
+    public function contact()
+    {
+        $data['page_title'] = 'Contact  Us';
+        return view('pages.contact',$data);
+    }
 }
