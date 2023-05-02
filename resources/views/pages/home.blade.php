@@ -9,28 +9,16 @@
 
         <div class="flexslider slider" id="slider-1">
             <ul class="slides">
-
-                <li class="item-1" style="background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(images/homepage-slider-1.jpg) 50% 0%;background-size:cover;
-                        height:100%;">
-                    <div class=" meta">
-                        <div class="container">
-                            <h2>Discover</h2>
-                            <h1>Australia</h1>
-                            <a href="#" class="btn btn-default">View More</a>
-                        </div><!-- end container -->
-                    </div><!-- end meta -->
-                </li><!-- end item-1 -->
-
-                <li class="item-2" style="background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(images/homepage-slider-1.jpg) 50% 0%;background-size:cover;
-                        height:100%;">
-                    <div class=" meta">
-                        <div class="container">
-                            <h2>Discover</h2>
-                            <h1>Australia</h1>
-                            <a href="#" class="btn btn-default">View More</a>
-                        </div><!-- end container -->
-                    </div><!-- end meta -->
-                </li><!-- end item-2 -->
+                @foreach ($slides as $slide)
+                    <li class="item-{{ $slide->id }}" style="background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url({{ asset('storage/' . $slide->image) }}) 50% 0%;background-size:cover;height:100%;">
+                        <div class=" meta">
+                            <div class="container">
+                                <h2>{{ $slide->subtitle }}</h2>
+                                <h1>{{ $slide->title }}</h1>
+                            </div><!-- end container -->
+                        </div><!-- end meta -->
+                    </li><!-- end item -->
+                @endforeach
 
             </ul>
         </div><!-- end slider -->
