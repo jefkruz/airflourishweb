@@ -65,7 +65,7 @@
                                     </div><!-- end arrow -->
 
                                     <div class="main-title hotel-title">
-                                        <a href="#">Herta Berlin Hotel</a>
+                                        <a href="#">Omia Hotel</a>
                                         <p>From: Scotland</p>
                                     </div><!-- end hotel-title -->
                                 </div><!-- end hotel-info -->
@@ -190,7 +190,7 @@
                     <div class="b-feature-block">
                         <span><i class="fa fa-dollar"></i></span>
                         <h3>Best Price Guarantee</h3>
-                        <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam delectus ei vis.</p>
+                        <p>Book with confidence knowing that Airflourish offers the best prices. If you find a lower price for the same hotel or flight elsewhere, we'll match or beat it. Enjoy competitive rates without compromising on quality.</p>
                     </div><!-- end b-feature-block -->
                 </div><!-- end columns -->
 
@@ -198,7 +198,7 @@
                     <div class="b-feature-block">
                         <span><i class="fa fa-lock"></i></span>
                         <h3>Safe and Secure</h3>
-                        <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam delectus ei vis.</p>
+                        <p>At Airflourish, we prioritize your safety. We employ stringent security measures to safeguard your personal information and ensure secure transactions. Book with confidence, knowing that your data is protected at all times.</p>
                     </div><!-- end b-feature-block -->
                 </div><!-- end columns -->
 
@@ -206,7 +206,7 @@
                     <div class="b-feature-block">
                         <span><i class="fa fa-thumbs-up"></i></span>
                         <h3>Best Travel Agents</h3>
-                        <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam delectus ei vis.</p>
+                        <p>Airflourish partners with top travel agents who provide expert advice and personalized assistance. Trust their knowledge and experience to make your journey unforgettable</p>
                     </div><!-- end b-feature-block -->
                 </div><!-- end columns -->
 
@@ -214,7 +214,7 @@
                     <div class="b-feature-block">
                         <span><i class="fa fa-bars"></i></span>
                         <h3>Travel Guidelines</h3>
-                        <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam delectus ei vis.</p>
+                        <p>Airflourish offers up-to-date travel guidelines for a seamless trip. From destination-specific requirements to health and safety recommendations, our guidelines provide essential information to plan your journey confidently.</p>
                     </div><!-- end b-feature-block -->
                 </div><!-- end columns -->
             </div><!-- end row -->
@@ -734,199 +734,6 @@
         </div><!-- end container -->
     </section><!-- end highlights -->
 
-
-    <!--================ VEHICLE OFFERS ==============-->
-    <section id="vehicle-offers" class="section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="page-heading">
-                        <h2>Vehicle Offers</h2>
-                        <hr class="heading-line" />
-                    </div><!-- end page-heading -->
-
-                    <div class="row">
-
-                        <div class="col-md-6 col-lg-4">
-                            <div class="main-block vehicle-block">
-                                <div class="main-img vehicle-img">
-                                    <a href="#">
-                                        <img src="images/vehicle-1.jpg" class="img-fluid" alt="tour-img" />
-                                    </a>
-                                    <div class="vehicle-time">
-                                        <p><span><i class="fa fa-clock-o"></i></span>22/h</p>
-                                    </div><!-- end vehicle-time -->
-                                </div><!-- end vehicle-img -->
-
-                                <div class="offer-price-2">
-                                    <ul class="list-unstyled">
-                                        <li class="price">$89<a href="#" ><span class="arrow"><i class="fa fa-angle-right"></i></span></a></li>
-                                    </ul>
-                                </div><!-- end offer-price-2 -->
-
-                                <div class="main-info vehicle-info">
-                                    <div class="main-title vehicle-title">
-                                        <a href="#">Mercedes Benz</a>
-                                        <p>Per Day</p>
-                                        <div class="rating">
-                                            <span><i class="fa fa-star orange"></i></span>
-                                            <span><i class="fa fa-star orange"></i></span>
-                                            <span><i class="fa fa-star orange"></i></span>
-                                            <span><i class="fa fa-star orange"></i></span>
-                                            <span><i class="fa fa-star lightgrey"></i></span>
-                                        </div>
-                                    </div><!-- end vehicle-title -->
-                                </div><!-- end vehicle-info -->
-                            </div><!-- end vehicle-block -->
-                        </div><!-- end columns -->
-
-                        <div class="col-md-6 col-lg-4">
-                            <div class="main-block vehicle-block">
-                                <div class="main-img vehicle-img">
-                                    <a href="#">
-                                        <img src="images/vehicle-2.jpg" class="img-fluid" alt="tour-img" />
-                                    </a>
-                                    <div class="vehicle-time">
-                                        <p><span><i class="fa fa-clock-o"></i></span>22/h</p>
-                                    </div><!-- end vehicle-time -->
-                                </div><!-- end vehicle-img -->
-
-                                <div class="offer-price-2">
-                                    <ul class="list-unstyled">
-                                        <li class="price">$99<a href="#" ><span class="arrow"><i class="fa fa-angle-right"></i></span></a></li>
-                                    </ul>
-                                </div><!-- end offer-price-2 -->
-
-                                <div class="main-info vehicle-info">
-                                    <div class="main-title vehicle-title">
-                                        <a href="#">Ferrari</a>
-                                        <p>Per Day</p>
-                                        <div class="rating">
-                                            <span><i class="fa fa-star orange"></i></span>
-                                            <span><i class="fa fa-star orange"></i></span>
-                                            <span><i class="fa fa-star orange"></i></span>
-                                            <span><i class="fa fa-star orange"></i></span>
-                                            <span><i class="fa fa-star lightgrey"></i></span>
-                                        </div>
-                                    </div><!-- end vehicle-title -->
-                                </div><!-- end vehicle-info -->
-                            </div><!-- end vehicle-block -->
-                        </div><!-- end columns -->
-
-                        <div class="col-md-6 col-lg-4">
-                            <div class="main-block vehicle-block">
-                                <div class="main-img vehicle-img">
-                                    <a href="#">
-                                        <img src="images/vehicle-3.jpg" class="img-fluid" alt="tour-img" />
-                                    </a>
-                                    <div class="vehicle-time">
-                                        <p><span><i class="fa fa-clock-o"></i></span>22/h</p>
-                                    </div><!-- end vehicle-time -->
-                                </div><!-- end vehicle-img -->
-
-                                <div class="offer-price-2">
-                                    <ul class="list-unstyled">
-                                        <li class="price">$79<a href="#" ><span class="arrow"><i class="fa fa-angle-right"></i></span></a></li>
-                                    </ul>
-                                </div><!-- end offer-price-2 -->
-
-                                <div class="main-info vehicle-info">
-                                    <div class="main-title vehicle-title">
-                                        <a href="#">Range Rover</a>
-                                        <p>Per Day</p>
-                                        <div class="rating">
-                                            <span><i class="fa fa-star orange"></i></span>
-                                            <span><i class="fa fa-star orange"></i></span>
-                                            <span><i class="fa fa-star orange"></i></span>
-                                            <span><i class="fa fa-star orange"></i></span>
-                                            <span><i class="fa fa-star lightgrey"></i></span>
-                                        </div>
-                                    </div><!-- end vehicle-title -->
-                                </div><!-- end vehicle-info -->
-                            </div><!-- end vehicle-block -->
-                        </div><!-- end columns -->
-
-                    </div><!-- end row -->
-
-                    <div class="view-all text-center">
-                        <a href="#" class="btn btn-orange">View All</a>
-                    </div><!-- end view-all -->
-                </div><!-- end columns -->
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </section><!-- end vehicle-offers -->
-
-
-    <!--==================== TESTIMONIALS ====================-->
-    <section id="testimonials" class="section-padding back-size">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="page-heading white-heading">
-                        <h2>Testimonials</h2>
-                        <hr class="heading-line" />
-                    </div><!-- end page-heading -->
-
-                    <div class="carousel slide" data-ride="carousel" id="quote-carousel">
-                        <div class="carousel-inner text-center">
-
-                            <div class="carousel-item active">
-                                <blockquote>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam delectus ei vis. Est atqui timeam mnesarchum at, pro an eros perpetua ullamcorper Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam delectus ei vis. Est atqui timeam mnesarchum at, pro an eros perpetua ullamcorper.</blockquote>
-                                <div class="rating">
-                                    <span><i class="fa fa-star orange"></i></span>
-                                    <span><i class="fa fa-star orange"></i></span>
-                                    <span><i class="fa fa-star orange"></i></span>
-                                    <span><i class="fa fa-star orange"></i></span>
-                                    <span><i class="fa fa-star lightgrey"></i></span>
-                                </div><!-- end rating -->
-
-                                <small>Jhon Smith</small>
-                            </div><!-- end item -->
-
-                            <div class="carousel-item">
-                                <blockquote>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam delectus ei vis. Est atqui timeam mnesarchum at, pro an eros perpetua ullamcorper Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam delectus ei vis. Est atqui timeam mnesarchum at, pro an eros perpetua ullamcorper.</blockquote>
-                                <div class="rating">
-                                    <span><i class="fa fa-star orange"></i></span>
-                                    <span><i class="fa fa-star orange"></i></span>
-                                    <span><i class="fa fa-star orange"></i></span>
-                                    <span><i class="fa fa-star orange"></i></span>
-                                    <span><i class="fa fa-star lightgrey"></i></span>
-                                </div><!-- end rating -->
-
-                                <small>Jhon Smith</small>
-                            </div><!-- end item -->
-
-                            <div class="carousel-item">
-                                <blockquote>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam delectus ei vis. Est atqui timeam mnesarchum at, pro an eros perpetua ullamcorper Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam delectus ei vis. Est atqui timeam mnesarchum at, pro an eros perpetua ullamcorper.</blockquote>
-                                <div class="rating">
-                                    <span><i class="fa fa-star orange"></i></span>
-                                    <span><i class="fa fa-star orange"></i></span>
-                                    <span><i class="fa fa-star orange"></i></span>
-                                    <span><i class="fa fa-star orange"></i></span>
-                                    <span><i class="fa fa-star lightgrey"></i></span>
-                                </div><!-- end rating -->
-
-                                <small>Jhon Smith</small>
-                            </div><!-- end item -->
-
-                        </div><!-- end carousel-inner -->
-
-                        <ol class="carousel-indicators mx-auto">
-                            <li data-target="#quote-carousel" data-slide-to="0" class="active"><img src="images/client-1.jpg" class="img-fluid d-block"  alt="client-img">
-                            </li>
-                            <li data-target="#quote-carousel" data-slide-to="1"><img src="images/client-2.jpg" class="img-fluid d-block"  alt="client-img">
-                            </li>
-                            <li data-target="#quote-carousel" data-slide-to="2"><img src="images/client-3.jpg" class="img-fluid d-block"  alt="client-img">
-                            </li>
-                        </ol>
-
-                    </div><!-- end quote-carousel -->
-                </div><!-- end columns -->
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </section><!-- end testimonials -->
-
-
     <!--================ LATEST BLOG ==============-->
     <section id="latest-blog" class="section-padding">
         <div class="container">
@@ -1031,6 +838,79 @@
     </section><!-- end latest-blog -->
 
 
+
+    <!--==================== TESTIMONIALS ====================-->
+    <section id="testimonials" class="section-padding back-size">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="page-heading white-heading">
+                        <h2>Testimonials</h2>
+                        <hr class="heading-line" />
+                    </div><!-- end page-heading -->
+
+                    <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+                        <div class="carousel-inner text-center">
+
+                            <div class="carousel-item active">
+                                <blockquote>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam delectus ei vis. Est atqui timeam mnesarchum at, pro an eros perpetua ullamcorper Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam delectus ei vis. Est atqui timeam mnesarchum at, pro an eros perpetua ullamcorper.</blockquote>
+                                <div class="rating">
+                                    <span><i class="fa fa-star orange"></i></span>
+                                    <span><i class="fa fa-star orange"></i></span>
+                                    <span><i class="fa fa-star orange"></i></span>
+                                    <span><i class="fa fa-star orange"></i></span>
+                                    <span><i class="fa fa-star lightgrey"></i></span>
+                                </div><!-- end rating -->
+
+                                <small>Jhon Smith</small>
+                            </div><!-- end item -->
+
+                            <div class="carousel-item">
+                                <blockquote>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam delectus ei vis. Est atqui timeam mnesarchum at, pro an eros perpetua ullamcorper Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam delectus ei vis. Est atqui timeam mnesarchum at, pro an eros perpetua ullamcorper.</blockquote>
+                                <div class="rating">
+                                    <span><i class="fa fa-star orange"></i></span>
+                                    <span><i class="fa fa-star orange"></i></span>
+                                    <span><i class="fa fa-star orange"></i></span>
+                                    <span><i class="fa fa-star orange"></i></span>
+                                    <span><i class="fa fa-star lightgrey"></i></span>
+                                </div><!-- end rating -->
+
+                                <small>Jhon Smith</small>
+                            </div><!-- end item -->
+
+                            <div class="carousel-item">
+                                <blockquote>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam delectus ei vis. Est atqui timeam mnesarchum at, pro an eros perpetua ullamcorper Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam delectus ei vis. Est atqui timeam mnesarchum at, pro an eros perpetua ullamcorper.</blockquote>
+                                <div class="rating">
+                                    <span><i class="fa fa-star orange"></i></span>
+                                    <span><i class="fa fa-star orange"></i></span>
+                                    <span><i class="fa fa-star orange"></i></span>
+                                    <span><i class="fa fa-star orange"></i></span>
+                                    <span><i class="fa fa-star lightgrey"></i></span>
+                                </div><!-- end rating -->
+
+                                <small>Jhon Smith</small>
+                            </div><!-- end item -->
+
+                        </div><!-- end carousel-inner -->
+
+                        <ol class="carousel-indicators mx-auto">
+                            <li data-target="#quote-carousel" data-slide-to="0" class="active"><img src="images/client-1.jpg" class="img-fluid d-block"  alt="client-img">
+                            </li>
+                            <li data-target="#quote-carousel" data-slide-to="1"><img src="images/client-2.jpg" class="img-fluid d-block"  alt="client-img">
+                            </li>
+                            <li data-target="#quote-carousel" data-slide-to="2"><img src="images/client-3.jpg" class="img-fluid d-block"  alt="client-img">
+                            </li>
+                        </ol>
+
+                    </div><!-- end quote-carousel -->
+                </div><!-- end columns -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </section><!-- end testimonials -->
+
+
+
+
     <!--========================= NEWSLETTER-1 ==========================-->
     <section id="newsletter-1" class="section-padding back-size newsletter">
         <div class="container">
@@ -1067,15 +947,14 @@
                                 <h4>Get</h4>
                                 <h2><span>20%</span> off</h2>
                                 <h4>on all flights booking</h4>
-                                <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset
-                                    pri.</p>
+                                <p>Why pay more when you can save big on your flights? Take advantage of this limited time offer and book your flights with Airflourish today! </p>
                                 <a href="#" class="btn btn-orange">Book Now</a>
                             </div><!-- end popup-ad-text -->
                         </div><!-- end columns -->
 
                         <div class="col-12 col-md-6">
                             <div class="popup-ad-img">
-                                <img src="images/about-content-2.png" class="img-fluid" />
+                                <img src="{{asset('images/about-content-2.png')}}" class="img-fluid" />
                             </div><!-- end popup-ad-img -->
                         </div><!-- end columns -->
                     </div><!-- end row -->

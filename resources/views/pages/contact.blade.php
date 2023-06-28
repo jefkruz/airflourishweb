@@ -19,7 +19,7 @@
                                     <span class="border-shape-top"></span>
                                     <span><i class="fa fa-map-marker"></i></span>
                                     <h4>Find us at</h4>
-                                    <p>Street # 25, California.</p>
+                                    <p>21 Billings Way, Oregun. Lagos Nigeria</p>
                                     <span class="border-shape-bot"></span>
                                 </div><!-- end contact-block-2 -->
                             </div><!-- end columns -->
@@ -29,7 +29,7 @@
                                     <span class="border-shape-top"></span>
                                     <span><i class="fa fa-envelope"></i></span>
                                     <h4>Email us at</h4>
-                                    <p>info@startravel.com</p>
+                                    <p>info.sales@airflourish.com</p>
                                     <span class="border-shape-bot"></span>
                                 </div><!-- end contact-block-2 -->
                             </div><!-- end columns -->
@@ -39,7 +39,7 @@
                                     <span class="border-shape-top"></span>
                                     <span><i class="fa fa-phone"></i></span>
                                     <h4>Call us at</h4>
-                                    <p>+123 12345 123456</p>
+                                    <p>+234 913 4779 928</p>
                                     <span class="border-shape-bot"></span>
                                 </div><!-- end contact-block-2 -->
                             </div><!-- end columns -->
