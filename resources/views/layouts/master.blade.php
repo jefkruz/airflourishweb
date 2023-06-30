@@ -1,3 +1,10 @@
+<?php
+$home_menu = (isset($home_menu) && $home_menu == true) ? 'active' : '';
+$hotel_menu = (isset($hotel_menu) && $hotel_menu == true) ? 'active' : '';
+$blog_menu = (isset($blog_menu) && $blog_menu == true) ? 'active' : '';
+
+
+?>
 @include('includes.head')
 
 <body id="main-homepage">
@@ -32,9 +39,7 @@
                 <div class="col-12 col-md-6">
                     <div id="info">
                         <ul class="list-unstyled list-inline">
-                            {{--                            <li class="list-inline-item"><span><i class="fa fa-map-marker"></i></span>21/23 Billings Way Oregun</li>--}}
-                            {{--                            <li class="list-inline-item"><span><i class="fa fa-phone"></i></span>+234 913 4779 928</li>--}}
-                        </ul>
+                             </ul>
                     </div><!-- end info -->
                 </div><!-- end columns -->
                 <div class="col-12 col-md-6">
@@ -45,16 +50,7 @@
                             <li class="list-inline-item">
                                 <form>
                                     <ul class="list-inline">
-                                        {{--                                        <li class="list-inline-item">--}}
-                                        {{--                                            <div class="form-group currency">--}}
-                                        {{--                                                <span><i class="fa fa-angle-down"></i></span>--}}
-                                        {{--                                                <select class="form-control">--}}
-                                        {{--                                                    <option value="">$</option>--}}
-                                        {{--                                                    <option value="">£</option>--}}
-                                        {{--                                                </select>--}}
-                                        {{--                                            </div><!-- end form-group -->--}}
-                                        {{--                                        </li>--}}
-                                        <li class="list-inline-item">
+                                     <li class="list-inline-item">
                                             <div class="form-group language">
                                                 <span><i class="fa fa-angle-down"></i></span>
                                                 <select class="form-control">
@@ -88,9 +84,15 @@
 
             <div class="collapse navbar-collapse" id="myNavbar1">
                 <ul class="navbar-nav ml-auto navbar-search-link">
-                    <li class="nav-item  active">
+                    <li class="nav-item  {{$home_menu}}">
                         <a href="{{route('home')}}" class="nav-link" >Home</a>
 
+                    </li>
+                    <li class="nav-item {{$hotel_menu}}">
+                        <a href="{{route('hotels')}}" class="nav-link"   >Hotels</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="{{route('hotels')}}" class="nav-link"   >Flight</a>
                     </li>
                     <li class="nav-item dropdown ">
                         <a href="#" class="nav-link" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services<span><i class="fa fa-angle-down "></i></span></a>
@@ -105,55 +107,9 @@
                             <li><a class="dropdown-item" href="travel-agency-homepage.html">Travel Agency Page</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a href="#" class="nav-link" data-toggle="dropdown">Flight<span><i class="fa fa-angle-down"></i></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="flight-homepage.html">Flight Homepage</a></li>
-                            <li><a class="dropdown-item" href="flight-listing-left-sidebar.html">List View Left Sidebar</a></li>
-                            <li><a class="dropdown-item" href="flight-listing-right-sidebar.html">List View Right Sidebar</a></li>
-                            <li><a class="dropdown-item" href="flight-grid-left-sidebar.html">Grid View Left Sidebar</a></li>
-                            <li><a class="dropdown-item" href="flight-grid-right-sidebar.html">Grid View Right Sidebar</a></li>
-                            <li><a class="dropdown-item" href="flight-detail-left-sidebar.html">Detail Left Sidebar</a></li>
-                            <li><a class="dropdown-item" href="flight-detail-right-sidebar.html">Detail Right Sidebar</a></li>
-                            <li><a class="dropdown-item" href="flight-booking-left-sidebar.html">Booking Left Sidebar</a></li>
-                            <li><a class="dropdown-item" href="flight-booking-right-sidebar.html">Booking Right Sidebar</a></li>
-                            <li><a class="dropdown-item" href="flight-search-result.html">Search Result</a></li>
-                            <li><a class="dropdown-item" href="flight-offers.html">Hot Offers</a></li>
-                        </ul>
+                    <li class="nav-item ">
+                        <a href="{{route('news')}}" class="nav-link {{$blog_menu}}"   >News</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a href="#" class="nav-link" data-toggle="dropdown">Hotel<span><i class="fa fa-angle-down"></i></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="hotel-homepage.html">Hotel Homepage</a></li>
-                            <li><a class="dropdown-item" href="hotel-listing-left-sidebar.html">List View Left Sidebar</a></li>
-                            <li><a class="dropdown-item" href="hotel-listing-right-sidebar.html">List View Right Sidebar</a></li>
-                            <li><a class="dropdown-item" href="hotel-grid-left-sidebar.html">Grid View Left Sidebar</a></li>
-                            <li><a class="dropdown-item" href="hotel-grid-right-sidebar.html">Grid View Right Sidebar</a></li>
-                            <li><a class="dropdown-item" href="hotel-detail-left-sidebar.html">Detail Left Sidebar</a></li>
-                            <li><a class="dropdown-item" href="hotel-detail-right-sidebar.html">Detail Right Sidebar</a></li>
-                            <li><a class="dropdown-item" href="hotel-booking-left-sidebar.html">Booking Left Sidebar</a></li>
-                            <li><a class="dropdown-item" href="hotel-booking-right-sidebar.html">Booking Right Sidebar</a></li>
-                            <li><a class="dropdown-item" href="hotel-search-result.html">Search Result</a></li>
-                            <li><a class="dropdown-item" href="hotel-offers.html">Hot Offers</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a href="#" class="nav-link" data-toggle="dropdown">Tour<span><i class="fa fa-angle-down"></i></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="tour-homepage.html">Tour Homepage</a></li>
-                            <li><a class="dropdown-item" href="tour-listing-left-sidebar.html">List View Left Sidebar</a></li>
-                            <li><a class="dropdown-item" href="tour-listing-right-sidebar.html">List View Right Sidebar</a></li>
-                            <li><a class="dropdown-item" href="tour-grid-left-sidebar.html">Grid View Left Sidebar</a></li>
-                            <li><a class="dropdown-item" href="tour-grid-right-sidebar.html">Grid View Right Sidebar</a></li>
-                            <li><a class="dropdown-item" href="tour-detail-left-sidebar.html">Detail Left Sidebar</a></li>
-                            <li><a class="dropdown-item" href="tour-detail-right-sidebar.html">Detail Right Sidebar</a></li>
-                            <li><a class="dropdown-item" href="tour-booking-left-sidebar.html">Booking Left Sidebar</a></li>
-                            <li><a class="dropdown-item" href="tour-booking-right-sidebar.html">Booking Right Sidebar</a></li>
-                            <li><a class="dropdown-item" href="tour-search-result.html">Search Result</a></li>
-                            <li><a class="dropdown-item" href="tour-offers.html">Hot Offers</a></li>
-                        </ul>
-                    </li>
-
                     <li class="nav-item ">
                         <a href="{{route('contact-us')}}" class="nav-link"   >Contact</a>
                     </li>

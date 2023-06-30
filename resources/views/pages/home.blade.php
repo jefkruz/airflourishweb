@@ -39,11 +39,12 @@
 
                     <div class="owl-carousel owl-theme owl-custom-arrow" id="owl-hotel-offers">
 
+                        @foreach($hotels as $hotel)
                         <div class="item">
                             <div class="main-block hotel-block">
                                 <div class="main-img">
                                     <a href="#">
-                                        <img src="images/hotel-1.jpg" class="img-fluid" alt="hotel-img" />
+                                        <img src="{{asset('storage/'.$hotel->image)}}" class="img-fluid" alt="{{$hotel->name}}" />
                                     </a>
 {{--                                    <div class="main-mask">--}}
 {{--                                        <ul class="list-unstyled list-inline offer-price-1">--}}
@@ -65,116 +66,18 @@
                                     </div><!-- end arrow -->
 
                                     <div class="main-title hotel-title">
-                                        <a href="#">Omia Hotel</a>
-                                        <p>From: Scotland</p>
+                                        <a href="#">{{ucwords($hotel->name)}}</a>
+                                        <p>{{ucwords($hotel->location)}}</p>
                                     </div><!-- end hotel-title -->
                                 </div><!-- end hotel-info -->
                             </div><!-- end hotel-block -->
                         </div><!-- end item -->
-
-                        <div class="item">
-                            <div class="main-block hotel-block">
-                                <div class="main-img">
-                                    <a href="#">
-                                        <img src="images/hotel-2.jpg" class="img-fluid" alt="hotel-img" />
-                                    </a>
-{{--                                    <div class="main-mask">--}}
-{{--                                        <ul class="list-unstyled list-inline offer-price-1">--}}
-{{--                                            <li class="list-inline-item price">$568.00<span class="divider">|</span><span class="pkg">Avg/Night</span></li>--}}
-{{--                                            <li class="list-inline-item rating">--}}
-{{--                                                <span><i class="fa fa-star orange"></i></span>--}}
-{{--                                                <span><i class="fa fa-star orange"></i></span>--}}
-{{--                                                <span><i class="fa fa-star orange"></i></span>--}}
-{{--                                                <span><i class="fa fa-star orange"></i></span>--}}
-{{--                                                <span><i class="fa fa-star lightgrey"></i></span>--}}
-{{--                                            </li>--}}
-{{--                                        </ul>--}}
-{{--                                    </div><!-- end main-mask -->--}}
-                                </div><!-- end offer-img -->
-
-                                <div class="main-info hotel-info">
-                                    <div class="arrow">
-                                        <a href="#"><span><i class="fa fa-angle-right"></i></span></a>
-                                    </div><!-- end arrow -->
-
-                                    <div class="main-title hotel-title">
-                                        <a href="#">Roosevelt Hotel</a>
-                                        <p>From: Germany</p>
-                                    </div><!-- end hotel-title -->
-                                </div><!-- end hotel-info -->
-                            </div><!-- end hotel-block -->
-                        </div><!-- end item -->
-
-                        <div class="item">
-                            <div class="main-block hotel-block">
-                                <div class="main-img">
-                                    <a href="#">
-                                        <img src="images/hotel-3.jpg" class="img-fluid" alt="hotel-img" />
-                                    </a>
-{{--                                    <div class="main-mask">--}}
-{{--                                        <ul class="list-unstyled list-inline offer-price-1">--}}
-{{--                                            <li class="list-inline-item price">$568.00<span class="divider">|</span><span class="pkg">Avg/Night</span></li>--}}
-{{--                                            <li class="list-inline-item rating">--}}
-{{--                                                <span><i class="fa fa-star orange"></i></span>--}}
-{{--                                                <span><i class="fa fa-star orange"></i></span>--}}
-{{--                                                <span><i class="fa fa-star orange"></i></span>--}}
-{{--                                                <span><i class="fa fa-star orange"></i></span>--}}
-{{--                                                <span><i class="fa fa-star lightgrey"></i></span>--}}
-{{--                                            </li>--}}
-{{--                                        </ul>--}}
-{{--                                    </div><!-- end main-mask -->--}}
-                                </div><!-- end offer-img -->
-
-                                <div class="main-info hotel-info">
-                                    <div class="arrow">
-                                        <a href="#"><span><i class="fa fa-angle-right"></i></span></a>
-                                    </div><!-- end arrow -->
-
-                                    <div class="main-title hotel-title">
-                                        <a href="#">Hotel Fort De</a>
-                                        <p>From: Austria</p>
-                                    </div><!-- end hotel-title -->
-                                </div><!-- end hotel-info -->
-                            </div><!-- end hotel-block -->
-                        </div><!-- end item -->
-
-                        <div class="item">
-                            <div class="main-block hotel-block">
-                                <div class="main-img">
-                                    <a href="#">
-                                        <img src="images/hotel-4.jpg" class="img-fluid" alt="hotel-img" />
-                                    </a>
-{{--                                    <div class="main-mask">--}}
-{{--                                        <ul class="list-unstyled list-inline offer-price-1">--}}
-{{--                                            <li class="list-inline-item price">$568.00<span class="divider">|</span><span class="pkg">Avg/Night</span></li>--}}
-{{--                                            <li class="list-inline-item rating">--}}
-{{--                                                <span><i class="fa fa-star orange"></i></span>--}}
-{{--                                                <span><i class="fa fa-star orange"></i></span>--}}
-{{--                                                <span><i class="fa fa-star orange"></i></span>--}}
-{{--                                                <span><i class="fa fa-star orange"></i></span>--}}
-{{--                                                <span><i class="fa fa-star lightgrey"></i></span>--}}
-{{--                                            </li>--}}
-{{--                                        </ul>--}}
-{{--                                    </div><!-- end main-mask -->--}}
-                                </div><!-- end offer-img -->
-
-                                <div class="main-info hotel-info">
-                                    <div class="arrow">
-                                        <a href="#"><span><i class="fa fa-angle-right"></i></span></a>
-                                    </div><!-- end arrow -->
-
-                                    <div class="main-title hotel-title">
-                                        <a href="#">Roosevelt Hotel</a>
-                                        <p>From: Germany</p>
-                                    </div><!-- end hotel-title -->
-                                </div><!-- end hotel-info -->
-                            </div><!-- end hotel-block -->
-                        </div><!-- end item -->
+                        @endforeach
 
                     </div><!-- end owl-hotel-offers -->
 
                     <div class="view-all text-center">
-                        <a href="#" class="btn btn-orange">View All</a>
+                        <a href="{{route('hotels')}}" class="btn btn-orange">View All</a>
                     </div><!-- end view-all -->
                 </div><!-- end columns -->
             </div><!-- end row -->
@@ -740,92 +643,40 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="page-heading">
-                        <h2>Our Latest Blogs</h2>
+                        <h2>Our Latest News</h2>
                         <hr class="heading-line" />
                     </div>
 
                     <div class="row">
-
+                        @foreach($news as $post)
+                            @php  $post->slug = 'news/'.$post->slug;@endphp
                         <div class="col-md-6 col-lg-4">
                             <div class="main-block latest-block">
                                 <div class="main-img latest-img">
-                                    <a href="#">
-                                        <img src="images/latest-blog-1.jpg" class="img-fluid" alt="blog-img" />
+                                    <a href="{{$post->slug}}">
+                                        <img src="{{asset('storage/'.$post->image)}}" class="img-fluid" alt="{{$post->title}}" />
                                     </a>
                                 </div><!-- end latest-img -->
 
                                 <div class="latest-info">
                                     <ul class="list-unstyled">
-                                        <li><span><i class="fa fa-calendar-minus-o"></i></span>29 April,2017<span class="author">by: <a href="#">Jhon Smith</a></span></li>
+                                        <li><span><i class="fa fa-calendar-minus-o"></i></span>{{$post->created_at->format('d M Y')}}<span class="author">by: <a href="#">Administrator</a></span></li>
                                     </ul>
                                 </div><!-- end latest-info -->
 
                                 <div class="main-info latest-desc">
                                     <div class="row">
                                         <div class="col-10 col-md-10 main-title">
-                                            <a href="#">Travel Insuranve Benefits</a>
-                                            <p>Veniam delectus ei vis. Est atqui timeam mnesarchum at, pro an eros perpetua ullamcorper.</p>
+                                            <a href="#">{{ucwords($post->title)}}</a>
+                                            <p>{!! html_entity_decode(Str::limit($post->body, 200)) !!}</p>
                                         </div><!-- end columns -->
                                     </div><!-- end row -->
 
-                                    <span class="arrow"><a href="#"><i class="fa fa-angle-right"></i></a></span>
+                                    <span class="arrow"><a href="{{$post->slug}}"><i class="fa fa-angle-right"></i></a></span>
                                 </div><!-- end latest-desc -->
                             </div><!-- end latest-block -->
                         </div><!-- end columns -->
-
-                        <div class="col-md-6 col-lg-4">
-                            <div class="main-block latest-block">
-                                <div class="main-img latest-img">
-                                    <a href="#">
-                                        <img src="images/latest-blog-2.jpg" class="img-fluid" alt="blog-img" />
-                                    </a>
-                                </div><!-- end latest-img -->
-
-                                <div class="latest-info">
-                                    <ul class="list-unstyled">
-                                        <li><span><i class="fa fa-calendar-minus-o"></i></span>29 April,2017<span class="author">by: <a href="#">Jhon Smith</a></span></li>
-                                    </ul>
-                                </div><!-- end latest-info -->
-
-                                <div class="main-info latest-desc">
-                                    <div class="row">
-                                        <div class="col-10 col-md-10 main-title">
-                                            <a href="#">Travel Guideline Agents</a>
-                                            <p>Veniam delectus ei vis. Est atqui timeam mnesarchum at, pro an eros perpetua ullamcorper.</p>
-                                        </div><!-- end columns -->
-                                    </div><!-- end row -->
-
-                                    <span class="arrow"><a href="#"><i class="fa fa-angle-right"></i></a></span>
-                                </div><!-- end latest-desc -->
-                            </div><!-- end latest-block -->
-                        </div><!-- end columns -->
-
-                        <div class="col-md-6 col-lg-4">
-                            <div class="main-block latest-block">
-                                <div class="main-img latest-img">
-                                    <a href="#">
-                                        <img src="images/latest-blog-3.jpg" class="img-fluid" alt="blog-img" />
-                                    </a>
-                                </div><!-- end latest-img -->
-
-                                <div class="latest-info">
-                                    <ul class="list-unstyled">
-                                        <li><span><i class="fa fa-calendar-minus-o"></i></span>29 April,2017<span class="author">by: <a href="#">Jhon Smith</a></span></li>
-                                    </ul>
-                                </div><!-- end latest-info -->
-
-                                <div class="main-info latest-desc">
-                                    <div class="row">
-                                        <div class="col-10 col-md-10 main-title">
-                                            <a href="#">Secure Travel Tips</a>
-                                            <p>Veniam delectus ei vis. Est atqui timeam mnesarchum at, pro an eros perpetua ullamcorper.</p>
-                                        </div><!-- end columns -->
-                                    </div><!-- end row -->
-
-                                    <span class="arrow"><a href="#"><i class="fa fa-angle-right"></i></a></span>
-                                </div><!-- end latest-desc -->
-                            </div><!-- end latest-block -->
-                        </div><!-- end columns -->
+                        @endforeach
 
                     </div><!-- end row -->
 
