@@ -2,6 +2,7 @@
 $home_menu = (isset($home_menu) && $home_menu == true) ? 'active' : '';
 $hotel_menu = (isset($hotel_menu) && $hotel_menu == true) ? 'active' : '';
 $blog_menu = (isset($blog_menu) && $blog_menu == true) ? 'active' : '';
+$contact_menu = (isset($contact_menu) && $contact_menu == true) ? 'active' : '';
 
 
 ?>
@@ -107,10 +108,10 @@ $blog_menu = (isset($blog_menu) && $blog_menu == true) ? 'active' : '';
                             <li><a class="dropdown-item" href="travel-agency-homepage.html">Travel Agency Page</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item ">
-                        <a href="{{route('news')}}" class="nav-link {{$blog_menu}}"   >News</a>
+                    <li class="nav-item {{$blog_menu}} ">
+                        <a href="{{route('news')}}" class="nav-link "   >News</a>
                     </li>
-                    <li class="nav-item ">
+                    <li class="nav-item {{$contact_menu}}">
                         <a href="{{route('contact-us')}}" class="nav-link"   >Contact</a>
                     </li>
                     <li class="dropdown-item search-btn">

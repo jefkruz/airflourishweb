@@ -268,425 +268,7 @@
     </section><!-- end tour-offers -->
 
 
-    <!--=============== CRUISE OFFERS ===============-->
-    <section id="cruise-offers" class="section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="page-heading">
-                        <h2>Cruise Offers</h2>
-                        <hr class="heading-line" />
-                    </div><!-- end page-heading -->
 
-                    <div class="row">
-                        <div class="col-md-6 col-lg-6">
-                            <div class="main-block cruise-block">
-                                <div class="row">
-
-                                    <div class="col-md-12 col-lg-6 col-lg-pull-6 no-pd-r">
-                                        <div class=" main-info cruise-info">
-                                            <div class="main-title cruise-title">
-                                                <a href="#">Spain Boat Tour</a>
-                                                <p>From: Italy to Spain</p>
-                                                <div class="rating">
-                                                    <span><i class="fa fa-star orange"></i></span>
-                                                    <span><i class="fa fa-star orange"></i></span>
-                                                    <span><i class="fa fa-star orange"></i></span>
-                                                    <span><i class="fa fa-star orange"></i></span>
-                                                    <span><i class="fa fa-star grey"></i></span>
-                                                </div><!-- end rating -->
-
-{{--                                                <span class="cruise-price">$950.00</span>--}}
-                                            </div><!-- end cruise-title -->
-                                        </div><!-- end cruise-info -->
-                                    </div><!-- end columns -->
-
-                                    <div class="col-md-12 col-lg-6 col-lg-push-6 no-pd-l">
-                                        <div class="main-img cruise-img">
-                                            <a href="#">
-                                                <img src="images/cruise-1.jpg" class="img-fluid" alt="cruise-img"/>
-                                                <div class="cruise-mask">
-                                                    <p>7 Nights, 6 Days</p>
-                                                </div><!-- end cruise-mask -->
-                                            </a>
-                                        </div><!-- end cruise-img -->
-                                    </div><!-- end columns -->
-
-                                </div><!-- end row -->
-                            </div><!-- end cruise-block -->
-                        </div><!-- end columns -->
-
-                        <div class="col-md-6 col-lg-6">
-                            <div class="main-block cruise-block">
-                                <div class="row">
-
-                                    <div class="col-md-12 col-lg-6 col-lg-pull-6 no-pd-r">
-                                        <div class=" main-info cruise-info">
-                                            <div class="main-title cruise-title">
-                                                <a href="#">Spain Boat Tour</a>
-                                                <p>From: Italy to Spain</p>
-                                                <div class="rating">
-                                                    <span><i class="fa fa-star orange"></i></span>
-                                                    <span><i class="fa fa-star orange"></i></span>
-                                                    <span><i class="fa fa-star orange"></i></span>
-                                                    <span><i class="fa fa-star orange"></i></span>
-                                                    <span><i class="fa fa-star grey"></i></span>
-                                                </div><!-- end rating -->
-
-{{--                                                <span class="cruise-price">$950.00</span>--}}
-                                            </div><!-- end cruise-title -->
-                                        </div><!-- end cruise-info -->
-                                    </div><!-- end columns -->
-
-                                    <div class="col-md-12 col-lg-6 col-lg-push-6 no-pd-l">
-                                        <div class="main-img cruise-img">
-                                            <a href="#">
-                                                <img src="images/cruise-2.jpg" class="img-fluid" alt="cruise-img"/>
-                                                <div class="cruise-mask">
-                                                    <p>7 Nights, 6 Days</p>
-                                                </div><!-- end cruise-mask -->
-                                            </a>
-                                        </div><!-- end cruise-img -->
-                                    </div><!-- end columns -->
-
-                                </div><!-- end row -->
-                            </div><!-- end cruise-block -->
-                        </div><!-- end columns -->
-
-                        <div class="col-md-6 col-lg-6">
-                            <div class="main-block cruise-block">
-                                <div class="row">
-
-                                    <div class="col-md-12 col-lg-6 col-lg-pull-6 no-pd-r">
-                                        <div class=" main-info cruise-info">
-                                            <div class="main-title cruise-title">
-                                                <a href="#">Spain Boat Tour</a>
-                                                <p>From: Italy to Spain</p>
-                                                <div class="rating">
-                                                    <span><i class="fa fa-star orange"></i></span>
-                                                    <span><i class="fa fa-star orange"></i></span>
-                                                    <span><i class="fa fa-star orange"></i></span>
-                                                    <span><i class="fa fa-star orange"></i></span>
-                                                    <span><i class="fa fa-star grey"></i></span>
-                                                </div><!-- end rating -->
-
-{{--                                                <span class="cruise-price">$950.00</span>--}}
-                                            </div><!-- end cruise-title -->
-                                        </div><!-- end cruise-info -->
-                                    </div><!-- end columns -->
-
-                                    <div class="col-md-12 col-lg-6 col-lg-push-6 no-pd-l">
-                                        <div class="main-img cruise-img">
-                                            <a href="#">
-                                                <img src="images/cruise-3.jpg" class="img-fluid" alt="cruise-img"/>
-                                                <div class="cruise-mask">
-                                                    <p>7 Nights, 6 Days</p>
-                                                </div><!-- end cruise-mask -->
-                                            </a>
-                                        </div><!-- end cruise-img -->
-                                    </div><!-- end columns -->
-
-                                </div><!-- end row -->
-                            </div><!-- end cruise-block -->
-                        </div><!-- end columns -->
-
-                        <div class="col-md-6 col-lg-6">
-                            <div class="main-block cruise-block">
-                                <div class="row">
-
-                                    <div class="col-md-12 col-lg-6 col-lg-pull-6 no-pd-r">
-                                        <div class=" main-info cruise-info">
-                                            <div class="main-title cruise-title">
-                                                <a href="#">Spain Boat Tour</a>
-                                                <p>From: Italy to Spain</p>
-                                                <div class="rating">
-                                                    <span><i class="fa fa-star orange"></i></span>
-                                                    <span><i class="fa fa-star orange"></i></span>
-                                                    <span><i class="fa fa-star orange"></i></span>
-                                                    <span><i class="fa fa-star orange"></i></span>
-                                                    <span><i class="fa fa-star grey"></i></span>
-                                                </div><!-- end rating -->
-
-{{--                                                <span class="cruise-price">$950.00</span>--}}
-                                            </div><!-- end cruise-title -->
-                                        </div><!-- end cruise-info -->
-                                    </div><!-- end columns -->
-
-                                    <div class="col-md-12 col-lg-6 col-lg-push-6 no-pd-l">
-                                        <div class="main-img cruise-img">
-                                            <a href="#">
-                                                <img src="images/cruise-4.jpg" class="img-fluid" alt="cruise-img"/>
-                                                <div class="cruise-mask">
-                                                    <p>7 Nights, 6 Days</p>
-                                                </div><!-- end cruise-mask -->
-                                            </a>
-                                        </div><!-- end cruise-img -->
-                                    </div><!-- end columns -->
-
-                                </div><!-- end row -->
-                            </div><!-- end cruise-block -->
-                        </div><!-- end columns -->
-                    </div><!-- end row -->
-
-                    <div class="view-all text-center">
-                        <a href="#" class="btn btn-orange">View All</a>
-                    </div><!-- end view-all -->
-                </div><!-- end columns -->
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </section><!-- end cruise-offers -->
-
-
-    <!--==================== VIDEO BANNER ===================-->
-    <section id="video-banner" class="banner-padding back-size">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm">
-                    <h2>Take a Video Tour</h2>
-                    <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam delectus ei vis. Est atqui timeam mnesarchum at, pro an eros perpetua ullamcorper.</p>
-                    <div class="margin-small py-5 mt-5 m-sm-0 "></div>
-
-                    <!-- Button trigger modal -->
-                    <button type="button" class="btn video-btn" id="play-button" data-toggle="modal" data-src="https://www.youtube.com/embed/0O2aH4XLbto" data-target="#myModal"><span><i class="fa fa-play mt-0 m-sm-0"></i></span>
-                    </button>
-
-                    <!-- Modal -->
-                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-
-                                <div class="modal-body">
-
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                    <!-- 16:9 aspect ratio -->
-
-                                    <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always">></iframe>
-                                    </div>
-
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div><!-- end columns -->
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </section><!-- end video-banner -->
-
-
-    <!--================= FLIGHT OFFERS =============-->
-    <section id="flight-offers" class="section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="page-heading">
-                        <h2>Flight Offers</h2>
-                        <hr class="heading-line" />
-                    </div><!-- end page-heading -->
-
-                    <div class="row">
-
-                        <div class="col-md-6 col-lg-4">
-                            <div class="main-block flight-block">
-                                <a href="#">
-                                    <div class="flight-img">
-                                        <img src="images/flight-1.jpg" class="img-fluid" alt="flight-img" />
-                                    </div><!-- end flight-img -->
-
-                                    <div class="flight-info">
-                                        <div class="flight-title">
-                                            <h3><span class="flight-destination">Spain</span>|<span class="flight-type">OneWay Flight</span></h3>
-                                        </div><!-- end flight-title -->
-
-                                        <div class=" flight-timing">
-                                            <ul class="list-unstyled">
-                                                <li><span><i class="fa fa-plane"></i></span><span class="date">Aug, 02-2017 </span>(8:40 PM)</li>
-                                                <li><span><i class="fa fa-plane"></i></span><span class="date">Aug, 03-2017 </span>(8:40 PM)</li>
-                                            </ul>
-                                        </div><!-- end flight-timing -->
-
-{{--                                        <ul class="list-unstyled list-inline offer-price-1">--}}
-{{--                                            <li class="list-inline-item price">$568.00<span class="pkg">Avg/Person</span></li>--}}
-{{--                                            <li class="list-inline-item rating">--}}
-{{--                                                <span><i class="fa fa-star orange"></i></span>--}}
-{{--                                                <span><i class="fa fa-star orange"></i></span>--}}
-{{--                                                <span><i class="fa fa-star orange"></i></span>--}}
-{{--                                                <span><i class="fa fa-star orange"></i></span>--}}
-{{--                                                <span><i class="fa fa-star lightgrey"></i></span>--}}
-{{--                                            </li>--}}
-{{--                                        </ul>--}}
-                                    </div><!-- end flight-info -->
-                                </a>
-                            </div><!-- end flight-block -->
-                        </div><!-- end columns -->
-
-                        <div class="col-md-6 col-lg-4">
-                            <div class="main-block flight-block">
-                                <a href="#">
-                                    <div class="flight-img">
-                                        <img src="images/flight-2.jpg" class="img-fluid" alt="flight-img" />
-                                    </div><!-- end flight-img -->
-
-                                    <div class="flight-info">
-                                        <div class="flight-title">
-                                            <h3><span class="flight-destination">Spain</span>|<span class="flight-type">OneWay Flight</span></h3>
-                                        </div><!-- end flight-title -->
-
-                                        <div class=" flight-timing">
-                                            <ul class="list-unstyled">
-                                                <li><span><i class="fa fa-plane"></i></span><span class="date">Aug, 02-2017 </span>(8:40 PM)</li>
-                                                <li><span><i class="fa fa-plane"></i></span><span class="date">Aug, 03-2017 </span>(8:40 PM)</li>
-                                            </ul>
-                                        </div><!-- end flight-timing -->
-
-
-                                    </div><!-- end flight-info -->
-                                </a>
-                            </div><!-- end flight-block -->
-                        </div><!-- end columns -->
-
-                        <div class="col-md-6 col-lg-4">
-                            <div class="main-block flight-block">
-                                <a href="#">
-                                    <div class="flight-img">
-                                        <img src="images/flight-3.jpg" class="img-fluid" alt="flight-img" />
-                                    </div><!-- end flight-img -->
-
-                                    <div class="flight-info">
-                                        <div class="flight-title">
-                                            <h3><span class="flight-destination">Spain</span>|<span class="flight-type">OneWay Flight</span></h3>
-                                        </div><!-- end flight-title -->
-
-                                        <div class=" flight-timing">
-                                            <ul class="list-unstyled">
-                                                <li><span><i class="fa fa-plane"></i></span><span class="date">Aug, 02-2017 </span>(8:40 PM)</li>
-                                                <li><span><i class="fa fa-plane"></i></span><span class="date">Aug, 03-2017 </span>(8:40 PM)</li>
-                                            </ul>
-                                        </div><!-- end flight-timing -->
-
-
-                                    </div><!-- end flight-info -->
-                                </a>
-                            </div><!-- end flight-block -->
-                        </div><!-- end columns -->
-
-
-                    </div><!-- end row -->
-
-                    <div class="view-all text-center">
-                        <a href="#" class="btn btn-orange">View All</a>
-                    </div><!-- end view-all -->
-                </div><!-- end columns -->
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </section><!-- end flight-offers -->
-
-
-    <!--==================== HIGHLIGHTS ====================-->
-    <section id="highlights" class="section-padding back-size">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-12 col-lg-12 col-xl-12">
-                    <div class="row">
-
-                        <div class="col-12 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center">
-                            <div class="highlight-box">
-                                <div class="h-icon">
-                                    <span><i class="fa fa-plane"></i></span>
-                                </div><!-- end h-icon -->
-
-                                <div class="h-text">
-                                    <span class="numbers">2496</span>
-                                    <p>Outstanding Tours</p>
-                                </div><!-- end h-text -->
-                            </div><!-- end highlight-box -->
-                        </div><!-- end columns -->
-
-                        <div class="col-12 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center">
-                            <div class="highlight-box">
-                                <div class="h-icon">
-                                    <span><i class="fa fa-ship"></i></span>
-                                </div><!-- end h-icon -->
-
-                                <div class="h-text cruise">
-                                    <span class="numbers">1906</span>
-                                    <p>Worldwide Cruise</p>
-                                </div><!-- end h-text -->
-                            </div><!-- end highlight-box -->
-                        </div><!-- end columns -->
-
-                        <div class="col-12 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center">
-                            <div class="highlight-box">
-                                <div class="h-icon">
-                                    <span><i class="fa fa-taxi"></i></span>
-                                </div><!-- end h-icon -->
-
-                                <div class="h-text taxi">
-                                    <span class="numbers">2033</span>
-                                    <p>Luxury Car Booking</p>
-                                </div><!-- end h-text -->
-                            </div><!-- end highlight-box -->
-                        </div><!-- end columns -->
-
-                    </div><!-- end row -->
-                </div><!-- end columns -->
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </section><!-- end highlights -->
-
-    <!--================ LATEST BLOG ==============-->
-    <section id="latest-blog" class="section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="page-heading">
-                        <h2>Our Latest News</h2>
-                        <hr class="heading-line" />
-                    </div>
-
-                    <div class="row">
-                        @foreach($news as $post)
-                            @php  $post->slug = 'news/'.$post->slug;@endphp
-                        <div class="col-md-6 col-lg-4">
-                            <div class="main-block latest-block">
-                                <div class="main-img latest-img">
-                                    <a href="{{$post->slug}}">
-                                        <img src="{{asset('storage/'.$post->image)}}" class="img-fluid" alt="{{$post->title}}" />
-                                    </a>
-                                </div><!-- end latest-img -->
-
-                                <div class="latest-info">
-                                    <ul class="list-unstyled">
-                                        <li><span><i class="fa fa-calendar-minus-o"></i></span>{{$post->created_at->format('d M Y')}}<span class="author">by: <a href="#">Administrator</a></span></li>
-                                    </ul>
-                                </div><!-- end latest-info -->
-
-                                <div class="main-info latest-desc">
-                                    <div class="row">
-                                        <div class="col-10 col-md-10 main-title">
-                                            <a href="#">{{ucwords($post->title)}}</a>
-                                            <p>{!! html_entity_decode(Str::limit($post->body, 200)) !!}</p>
-                                        </div><!-- end columns -->
-                                    </div><!-- end row -->
-
-                                    <span class="arrow"><a href="{{$post->slug}}"><i class="fa fa-angle-right"></i></a></span>
-                                </div><!-- end latest-desc -->
-                            </div><!-- end latest-block -->
-                        </div><!-- end columns -->
-                        @endforeach
-
-                    </div><!-- end row -->
-
-                    <div class="view-all text-center">
-                        <a href="#" class="btn btn-orange">View All</a>
-                    </div><!-- end view-all -->
-                </div><!-- end columns -->
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </section><!-- end latest-blog -->
 
 
 
@@ -702,9 +284,9 @@
 
                     <div class="carousel slide" data-ride="carousel" id="quote-carousel">
                         <div class="carousel-inner text-center">
-
-                            <div class="carousel-item active">
-                                <blockquote>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam delectus ei vis. Est atqui timeam mnesarchum at, pro an eros perpetua ullamcorper Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam delectus ei vis. Est atqui timeam mnesarchum at, pro an eros perpetua ullamcorper.</blockquote>
+                            @foreach($quotes as $index => $quote)
+                            <div class="carousel-item {{ $index === 0 ? 'active' : '' }}">
+                                <blockquote>{{$quote->body}}</blockquote>
                                 <div class="rating">
                                     <span><i class="fa fa-star orange"></i></span>
                                     <span><i class="fa fa-star orange"></i></span>
@@ -713,44 +295,19 @@
                                     <span><i class="fa fa-star lightgrey"></i></span>
                                 </div><!-- end rating -->
 
-                                <small>Jhon Smith</small>
+                                <small>{{$quote->name}}</small>
                             </div><!-- end item -->
+                            @endforeach
 
-                            <div class="carousel-item">
-                                <blockquote>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam delectus ei vis. Est atqui timeam mnesarchum at, pro an eros perpetua ullamcorper Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam delectus ei vis. Est atqui timeam mnesarchum at, pro an eros perpetua ullamcorper.</blockquote>
-                                <div class="rating">
-                                    <span><i class="fa fa-star orange"></i></span>
-                                    <span><i class="fa fa-star orange"></i></span>
-                                    <span><i class="fa fa-star orange"></i></span>
-                                    <span><i class="fa fa-star orange"></i></span>
-                                    <span><i class="fa fa-star lightgrey"></i></span>
-                                </div><!-- end rating -->
-
-                                <small>Jhon Smith</small>
-                            </div><!-- end item -->
-
-                            <div class="carousel-item">
-                                <blockquote>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam delectus ei vis. Est atqui timeam mnesarchum at, pro an eros perpetua ullamcorper Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam delectus ei vis. Est atqui timeam mnesarchum at, pro an eros perpetua ullamcorper.</blockquote>
-                                <div class="rating">
-                                    <span><i class="fa fa-star orange"></i></span>
-                                    <span><i class="fa fa-star orange"></i></span>
-                                    <span><i class="fa fa-star orange"></i></span>
-                                    <span><i class="fa fa-star orange"></i></span>
-                                    <span><i class="fa fa-star lightgrey"></i></span>
-                                </div><!-- end rating -->
-
-                                <small>Jhon Smith</small>
-                            </div><!-- end item -->
 
                         </div><!-- end carousel-inner -->
 
                         <ol class="carousel-indicators mx-auto">
-                            <li data-target="#quote-carousel" data-slide-to="0" class="active"><img src="images/client-1.jpg" class="img-fluid d-block"  alt="client-img">
+                            @foreach($quotes as $index => $quote)
+                            <li data-target="#quote-carousel" data-slide-to="{{ $index }}" class="{{ $index === 0 ? 'active' : '' }}"><img src="{{asset('storage/'.$quote->image)}}" class="img-fluid d-block"  alt="client-img">
                             </li>
-                            <li data-target="#quote-carousel" data-slide-to="1"><img src="images/client-2.jpg" class="img-fluid d-block"  alt="client-img">
-                            </li>
-                            <li data-target="#quote-carousel" data-slide-to="2"><img src="images/client-3.jpg" class="img-fluid d-block"  alt="client-img">
-                            </li>
+                            @endforeach
+
                         </ol>
 
                     </div><!-- end quote-carousel -->
@@ -759,6 +316,57 @@
         </div><!-- end container -->
     </section><!-- end testimonials -->
 
+
+    <!--================ LATEST BLOG ==============-->
+    <section id="latest-blog" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="page-heading">
+                        <h2>Our Latest News</h2>
+                        <hr class="heading-line" />
+                    </div>
+
+                    <div class="row">
+                        @foreach($news as $post)
+                            @php  $post->slug = 'news/'.$post->slug;@endphp
+                            <div class="col-md-6 col-lg-4">
+                                <div class="main-block latest-block">
+                                    <div class="main-img latest-img">
+                                        <a href="{{$post->slug}}">
+                                            <img src="{{asset('storage/'.$post->image)}}" class="img-fluid" alt="{{$post->title}}" />
+                                        </a>
+                                    </div><!-- end latest-img -->
+
+                                    <div class="latest-info">
+                                        <ul class="list-unstyled">
+                                            <li><span><i class="fa fa-calendar-minus-o"></i></span>{{$post->created_at->format('d M Y')}}<span class="author">by: <a href="#">Administrator</a></span></li>
+                                        </ul>
+                                    </div><!-- end latest-info -->
+
+                                    <div class="main-info latest-desc">
+                                        <div class="row">
+                                            <div class="col-10 col-md-10 main-title">
+                                                <a href="#">{{ucwords($post->title)}}</a>
+                                                <p>{!! html_entity_decode(Str::limit($post->body, 200)) !!}</p>
+                                            </div><!-- end columns -->
+                                        </div><!-- end row -->
+
+                                        <span class="arrow"><a href="{{$post->slug}}"><i class="fa fa-angle-right"></i></a></span>
+                                    </div><!-- end latest-desc -->
+                                </div><!-- end latest-block -->
+                            </div><!-- end columns -->
+                        @endforeach
+
+                    </div><!-- end row -->
+
+                    <div class="view-all text-center">
+                        <a href="{{route('news')}}" class="btn btn-orange">View All</a>
+                    </div><!-- end view-all -->
+                </div><!-- end columns -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </section><!-- end latest-blog -->
 
 
 

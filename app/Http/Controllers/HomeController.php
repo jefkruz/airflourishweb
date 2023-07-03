@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Hotel;
 use App\Models\Slide;
+use App\Models\Testimonial;
 use Illuminate\Http\Request;
 use TCG\Voyager\Models\Post;
 
@@ -16,6 +17,7 @@ class HomeController extends Controller
 
 
         $this->data['hotels'] = Hotel::all();
+        $this->data['quotes'] = Testimonial::all();
        $this->data['posts'] = Post::latest()->paginate(3);
         $this->data['news'] = Post::limit(3)->latest()->get();
     }
@@ -59,6 +61,7 @@ class HomeController extends Controller
     public function contact()
     {
         $data['page_title'] = 'Contact  Us';
+        $data['contact_menu'] = true;
         return view('pages.contact',$data);
     }
 }
