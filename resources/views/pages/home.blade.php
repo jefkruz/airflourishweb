@@ -137,24 +137,26 @@
 
                     <div class="owl-carousel owl-theme owl-custom-arrow" id="owl-tour-offers">
 
+                        @foreach($tours as $tour)
                         <div class="item">
                             <div class="main-block tour-block">
                                 <div class="main-img">
                                     <a href="#">
-                                        <img src="images/tour-1.jpg" class="img-fluid" alt="tour-img" />
+                                        <img src="{{asset('storage/'.$tour->image)}}" class="img-fluid" alt="{{$tour->title}}" />
                                     </a>
                                 </div><!-- end offer-img -->
 
                                 <div class="offer-price-2">
                                     <ul class="list-unstyled">
-                                        <li class="price">$568.00<a href="#" ><span class="arrow"><i class="fa fa-angle-right"></i></span></a></li>
+                                        <li class="price">${{number_format($tour->price)}}<a href="#" >
+                                                <span class="arrow"><i class="fa fa-angle-right"></i></span></a></li>
                                     </ul>
                                 </div><!-- end offer-price-2 -->
 
                                 <div class="main-info tour-info">
                                     <div class="main-title tour-title">
-                                        <a href="#">China Temple Tour</a>
-                                        <p>From: China</p>
+                                        <a href="#">{{ucwords($tour->title)}} </a>
+                                        <p> {{ucwords($tour->location)}}</p>
                                         <div class="rating">
                                             <span><i class="fa fa-star orange"></i></span>
                                             <span><i class="fa fa-star orange"></i></span>
@@ -166,96 +168,7 @@
                                 </div><!-- end tour-info -->
                             </div><!-- end tour-block -->
                         </div><!-- end item -->
-
-                        <div class="item">
-                            <div class="main-block tour-block">
-                                <div class="main-img">
-                                    <a href="#">
-                                        <img src="images/tour-2.jpg" class="img-fluid" alt="tour-img" />
-                                    </a>
-                                </div><!-- end offer-img -->
-
-                                <div class="offer-price-2">
-                                    <ul class="list-unstyled">
-                                        <li class="price">$745.00<a href="#" ><span class="arrow"><i class="fa fa-angle-right"></i></span></a></li>
-                                    </ul>
-                                </div><!-- end offer-price-2 -->
-
-                                <div class="main-info tour-info">
-                                    <div class="main-title tour-title">
-                                        <a href="#">African Safari Tour</a>
-                                        <p>From: Africa</p>
-                                        <div class="rating">
-                                            <span><i class="fa fa-star orange"></i></span>
-                                            <span><i class="fa fa-star orange"></i></span>
-                                            <span><i class="fa fa-star orange"></i></span>
-                                            <span><i class="fa fa-star orange"></i></span>
-                                            <span><i class="fa fa-star grey"></i></span>
-                                        </div>
-                                    </div><!-- end tour-title -->
-                                </div><!-- end tour-info -->
-                            </div><!-- end tour-block -->
-                        </div><!-- end item -->
-
-                        <div class="item">
-                            <div class="main-block tour-block">
-                                <div class="main-img">
-                                    <a href="#">
-                                        <img src="images/tour-3.jpg" class="img-fluid" alt="tour-img" />
-                                    </a>
-                                </div><!-- end offer-img -->
-
-                                <div class="offer-price-2">
-                                    <ul class="list-unstyled">
-                                        <li class="price">$459.00<a href="#" ><span class="arrow"><i class="fa fa-angle-right"></i></span></a></li>
-                                    </ul>
-                                </div><!-- end offer-price-2 -->
-
-                                <div class="main-info tour-info">
-                                    <div class="main-title tour-title">
-                                        <a href="#">Paris City Tour</a>
-                                        <p>From: Paris</p>
-                                        <div class="rating">
-                                            <span><i class="fa fa-star orange"></i></span>
-                                            <span><i class="fa fa-star orange"></i></span>
-                                            <span><i class="fa fa-star orange"></i></span>
-                                            <span><i class="fa fa-star orange"></i></span>
-                                            <span><i class="fa fa-star grey"></i></span>
-                                        </div>
-                                    </div><!-- end tour-title -->
-                                </div><!-- end tour-info -->
-                            </div><!-- end tour-block -->
-                        </div><!-- end item -->
-
-                        <div class="item">
-                            <div class="main-block tour-block">
-                                <div class="main-img">
-                                    <a href="#">
-                                        <img src="images/tour-4.jpg" class="img-fluid" alt="tour-img" />
-                                    </a>
-                                </div><!-- end offer-img -->
-
-                                <div class="offer-price-2">
-                                    <ul class="list-unstyled">
-                                        <li class="price">$745.00<a href="#" ><span class="arrow"><i class="fa fa-angle-right"></i></span></a></li>
-                                    </ul>
-                                </div><!-- end offer-price-2 -->
-
-                                <div class="main-info tour-info">
-                                    <div class="main-title tour-title">
-                                        <a href="#">China Temple Tour</a>
-                                        <p>From: China</p>
-                                        <div class="rating">
-                                            <span><i class="fa fa-star orange"></i></span>
-                                            <span><i class="fa fa-star orange"></i></span>
-                                            <span><i class="fa fa-star orange"></i></span>
-                                            <span><i class="fa fa-star orange"></i></span>
-                                            <span><i class="fa fa-star grey"></i></span>
-                                        </div>
-                                    </div><!-- end tour-title -->
-                                </div><!-- end tour-info -->
-                            </div><!-- end tour-block -->
-                        </div><!-- end item -->
+                        @endforeach
 
                     </div><!-- end owl-tour-offers -->
 

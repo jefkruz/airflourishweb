@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Hotel;
 use App\Models\Slide;
 use App\Models\Testimonial;
+use App\Models\Tour;
 use Illuminate\Http\Request;
 use TCG\Voyager\Models\Post;
 
@@ -17,6 +18,7 @@ class HomeController extends Controller
 
 
         $this->data['hotels'] = Hotel::all();
+        $this->data['tours'] = Tour::all();
         $this->data['quotes'] = Testimonial::all();
        $this->data['posts'] = Post::latest()->paginate(3);
         $this->data['news'] = Post::limit(3)->latest()->get();
@@ -45,6 +47,15 @@ class HomeController extends Controller
         $data['page_title'] = 'Our News';
 
         return view('pages.news', $data);
+    }
+
+    public function tours()
+    {
+        $data = $this->data;
+        $data['tour_menu'] = true;
+        $data['page_title'] = 'Tours';
+
+        return view('pages.tours', $data);
     }
 
     public function viewNews($slug)

@@ -1,6 +1,7 @@
 <?php
 $home_menu = (isset($home_menu) && $home_menu == true) ? 'active' : '';
 $hotel_menu = (isset($hotel_menu) && $hotel_menu == true) ? 'active' : '';
+$tour_menu = (isset($tour_menu) && $tour_menu == true) ? 'active' : '';
 $blog_menu = (isset($blog_menu) && $blog_menu == true) ? 'active' : '';
 $contact_menu = (isset($contact_menu) && $contact_menu == true) ? 'active' : '';
 
@@ -92,22 +93,10 @@ $contact_menu = (isset($contact_menu) && $contact_menu == true) ? 'active' : '';
                     <li class="nav-item {{$hotel_menu}}">
                         <a href="{{route('hotels')}}" class="nav-link"   >Hotels</a>
                     </li>
-                    <li class="nav-item ">
-                        <a href="{{route('hotels')}}" class="nav-link"   >Flight</a>
+                    <li class="nav-item  {{$tour_menu}}">
+                        <a href="{{route('tours')}}" class="nav-link"   >Tours</a>
                     </li>
-                    <li class="nav-item dropdown ">
-                        <a href="#" class="nav-link" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services<span><i class="fa fa-angle-down "></i></span></a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li ><a href="#" class="dropdown-item">Hotel Reservation</a></li>
-                            <li><a class="dropdown-item" href="flight-homepage.html">Flight Homepage</a></li>
 
-                            <li><a class="dropdown-item" href="tour-homepage.html">Tour Homepage</a></li>
-                            <li><a class="dropdown-item" href="cruise-homepage.html">Cruise Homepage</a></li>
-                            <li><a class="dropdown-item" href="car-homepage.html">Car Homepage</a></li>
-
-                            <li><a class="dropdown-item" href="travel-agency-homepage.html">Travel Agency Page</a></li>
-                        </ul>
-                    </li>
                     <li class="nav-item {{$blog_menu}} ">
                         <a href="{{route('news')}}" class="nav-link "   >News</a>
                     </li>
@@ -349,13 +338,13 @@ $contact_menu = (isset($contact_menu) && $contact_menu == true) ? 'active' : '';
                     </div><!-- end columns -->
 
                     <div class="col-12 col-md-6 col-lg-3 col-xl-3 footer-widget ftr-links ftr-pad-left">
-                        <h3 class="footer-heading">RESOURCES</h3>
+                        <h3 class="footer-heading">QUICK LINKS</h3>
                         <ul class="list-unstyled">
-                            <li><a href="#">Blogs</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">Login</a></li>
-                            <li><a href="#">Register</a></li>
-                            <li><a href="#">Site Map</a></li>
+                            <li><a href="{{route('home')}}">Home</a></li>
+                            <li><a href="{{route('news')}}">News</a></li>
+                            <li><a href="{{route('hotels')}}">Hotels</a></li>
+                            <li><a href="{{route('contact-us')}}">Contact Us</a></li>
+
                         </ul>
                     </div><!-- end columns -->
 
@@ -363,13 +352,17 @@ $contact_menu = (isset($contact_menu) && $contact_menu == true) ? 'active' : '';
                         <h3 class="footer-heading">ABOUT US</h3>
                         <p>AIRFLOURISH Travels and Tours is a foremost Destination Management Company. We are strategically positioned to provide all of your travel and hospitality needs.</p>
                         <ul class="social-links list-inline list-unstyled">
-                            <li class="list-inline-item"><a href="#"><span><i class="fa fa-facebook"></i></span></a></li>
-                            <li class="list-inline-item"><a href="#"><span><i class="fa fa-twitter"></i></span></a></li>
-                            <li class="list-inline-item"><a href="#"><span><i class="fa fa-google-plus"></i></span></a></li>
-                            <li class="list-inline-item"><a href="#"><span><i class="fa fa-pinterest-p"></i></span></a></li>
-                            <li class="list-inline-item"><a href="#"><span><i class="fa fa-instagram"></i></span></a></li>
-                            <li class="list-inline-item"><a href="#"><span><i class="fa fa-linkedin"></i></span></a></li>
-                            <li class="list-inline-item"><a href="#"><span><i class="fa fa-youtube-play"></i></span></a></li>
+{{--                            <li class="list-inline-item"><a href="#"><span><i class="fa fa-facebook"></i></span></a></li>--}}
+{{--                            <li class="list-inline-item"><a href="#"><span><i class="fa fa-twitter"></i></span></a></li>--}}
+{{--                            <li class="list-inline-item"><a href="#"><span><i class="fa fa-google-plus"></i></span></a></li>--}}
+{{--                            <li class="list-inline-item"><a href="#"><span><i class="fa fa-pinterest-p"></i></span></a></li>--}}
+{{--                            <li class="list-inline-item"><a href="#"><span><i class="fa fa-instagram"></i></span></a></li>--}}
+{{--                            <li class="list-inline-item"><a href="#"><span><i class="fa fa-linkedin"></i></span></a></li>--}}
+{{--                            <li class="list-inline-item"><a href="#"><span><i class="fa fa-youtube-play"></i></span></a></li>--}}
+                           <li><a href="#" class="btn btn-primary btn-block">
+                                   <img src="https://kingsch.at/h/css/images/favicon.ico" alt="">
+                                    KingsChat
+                               </a></li>
                         </ul>
                     </div><!-- end columns -->
 
