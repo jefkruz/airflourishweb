@@ -173,7 +173,7 @@
                     </div><!-- end owl-tour-offers -->
 
                     <div class="view-all text-center">
-                        <a href="#" class="btn btn-orange">View All</a>
+                        <a href="{{route('tours')}}" class="btn btn-orange">View All</a>
                     </div><!-- end view-all -->
                 </div><!-- end columns -->
             </div><!-- end row -->
@@ -253,14 +253,14 @@
 
                                     <div class="latest-info">
                                         <ul class="list-unstyled">
-                                            <li><span><i class="fa fa-calendar-minus-o"></i></span>{{$post->created_at->format('d M Y')}}<span class="author">by: <a href="#">Administrator</a></span></li>
+                                            <li><span><i class="fa fa-calendar-minus-o"></i></span>{{$post->created_at->format('d M Y')}}<span class="author">by: <a href="{{$post->slug}}">Administrator</a></span></li>
                                         </ul>
                                     </div><!-- end latest-info -->
 
                                     <div class="main-info latest-desc">
                                         <div class="row">
                                             <div class="col-10 col-md-10 main-title">
-                                                <a href="#">{{ucwords($post->title)}}</a>
+                                                <a href="{{$post->slug}}">{{ucwords($post->title)}}</a>
                                                 <p>{!! html_entity_decode(Str::limit($post->body, 200)) !!}</p>
                                             </div><!-- end columns -->
                                         </div><!-- end row -->
