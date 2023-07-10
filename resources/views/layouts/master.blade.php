@@ -45,31 +45,7 @@ $contact_menu = (isset($contact_menu) && $contact_menu == true) ? 'active' : '';
                              </ul>
                     </div><!-- end info -->
                 </div><!-- end columns -->
-                <div class="col-12 col-md-6">
-                    <div id="links">
-                        <ul class="list-unstyled list-inline">
-                            {{--                            <li class="list-inline-item"><a href="login-1.html"><span><i class="fa fa-lock"></i></span>Login</a></li>--}}
-                            {{--                            <li class="list-inline-item"><a href="registration-1.html"><span><i class="fa fa-plus"></i></span>Sign Up</a></li>--}}
-                            <li class="list-inline-item">
-                                <form>
-                                    <ul class="list-inline">
-                                     <li class="list-inline-item">
-                                            <div class="form-group language">
-                                                <span><i class="fa fa-angle-down"></i></span>
-                                                <select class="form-control">
-                                                    <option value="">EN</option>
-                                                    <option value="">UR</option>
-                                                    <option value="">FR</option>
-                                                    <option value="">IT</option>
-                                                </select>
-                                            </div><!-- end form-group -->
-                                        </li>
-                                    </ul>
-                                </form>
-                            </li>
-                        </ul>
-                    </div><!-- end links -->
-                </div><!-- end columns -->
+
             </div><!-- end row -->
         </div><!-- end container -->
     </div>
