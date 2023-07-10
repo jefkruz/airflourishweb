@@ -178,7 +178,7 @@ $contact_menu = (isset($contact_menu) && $contact_menu == true) ? 'active' : '';
 {{--                            <li class="list-inline-item"><a href="#"><span><i class="fa fa-instagram"></i></span></a></li>--}}
 {{--                            <li class="list-inline-item"><a href="#"><span><i class="fa fa-linkedin"></i></span></a></li>--}}
 {{--                            <li class="list-inline-item"><a href="#"><span><i class="fa fa-youtube-play"></i></span></a></li>--}}
-                           <li><a href="#" class="btn btn-primary btn-block">
+                           <li><a href="https://kingschat.online/user/airflourish.bkg" class="btn btn-primary btn-block">
                                    <img src="https://kingsch.at/h/css/images/favicon.ico" alt="">
                                     KingsChat
                                </a></li>
