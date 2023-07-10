@@ -106,9 +106,7 @@ $contact_menu = (isset($contact_menu) && $contact_menu == true) ? 'active' : '';
 
                         </ul>
                     </li>
-                    <li class="nav-item {{$service_menu}} ">
-                        <a href="{{route('services')}}" class="nav-link "   >Services</a>
-                    </li>
+
                     <li class="nav-item {{$blog_menu}} ">
                         <a href="{{route('news')}}" class="nav-link "   >News</a>
                     </li>
@@ -235,6 +233,6 @@ $contact_menu = (isset($contact_menu) && $contact_menu == true) ? 'active' : '';
     </section>
     <!-- end footer -->
 
-    @yield('ads')
+{{--    @yield('ads')--}}
 
 @include('includes.scripts')
