@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Hotel;
+use App\Models\Service;
 use App\Models\Slide;
 use App\Models\Testimonial;
 use App\Models\Tour;
@@ -20,6 +21,7 @@ class HomeController extends Controller
         $this->data['hotels'] = Hotel::all();
         $this->data['tours'] = Tour::all();
         $this->data['quotes'] = Testimonial::all();
+        $this->data['services'] = Service::all();
        $this->data['posts'] = Post::latest()->paginate(3);
         $this->data['news'] = Post::limit(3)->latest()->get();
     }
@@ -47,6 +49,15 @@ class HomeController extends Controller
         $data['page_title'] = 'Our News';
 
         return view('pages.news', $data);
+    }
+
+    public function services()
+    {
+        $data = $this->data;
+        $data['service_menu'] = true;
+        $data['page_title'] = 'Our Services';
+
+        return view('pages.services', $data);
     }
 
     public function tours()

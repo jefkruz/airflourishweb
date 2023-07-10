@@ -58,7 +58,7 @@ Author:			Star Travel
 	width: 100%;
 	height: 100%;
 	z-index: 9999;
-	background: url(../images/loader-orange.gif) center no-repeat #fff;
+	background: url(../images/loader-red.gif) center no-repeat #fff;
 }
 
 p{
@@ -218,18 +218,18 @@ p{
 
 .border-shape-bot::before,
 .border-shape-bot::after{
-	background:#e62a2b;	
+	background:#e62a2b;
 }
 
 @media(max-width:991px){
-	
+
 	.back-size{
 		background-size:cover !important;
 	}
 }
 
 @media(max-width:768px){
-	
+
 	.table-responsive{
 		border:0px;
 		margin:0px;
@@ -246,11 +246,11 @@ p{
 }
 
 #top-bar.colored{
-	background:#e62a2b;	
+	background:#e62a2b;
 }
 
 #top-bar.transparent{
-	background:rgba(0,0,0,0.7);	
+	background:rgba(0,0,0,0.7);
 }
 
 #top-bar .form-group select{
@@ -317,7 +317,7 @@ nav.navbar{
 	box-shadow:0px 2px 5px rgba(0,0,0,0.2);
 }
 
-nav.navbar#mynavbar-1 .navbar-collapse ul li a 
+nav.navbar#mynavbar-1 .navbar-collapse ul li a
 {
 	color: #444;
 }
@@ -336,14 +336,14 @@ nav.navbar#mynavbar-1 .navbar-collapse > ul > li.active > a{
 nav.navbar#mynavbar-1 .navbar-collapse > .navbar-nav > li .dropdown-menu li a:hover ,
 nav.navbar#mynavbar-1 .navbar-collapse > .navbar-nav > li .dropdown-menu li a:focus ,
 nav.navbar#mynavbar-1 .navbar-collapse > .navbar-nav > li .dropdown-menu li.active > a ,
-nav.navbar#mynavbar-1 .navbar-collapse > .navbar-nav > li .dropdown-menu li.active a:hover 
+nav.navbar#mynavbar-1 .navbar-collapse > .navbar-nav > li .dropdown-menu li.active a:hover
 {
 	background-color: #e62a2b;
 	color: black;
 }
 
 
-nav.navbar .navbar-collapse .navbar-nav li.dropdown ul.dropdown-menu li.dropdown-item 
+nav.navbar .navbar-collapse .navbar-nav li.dropdown ul.dropdown-menu li.dropdown-item
 {
 	background-color: unset;
 }
@@ -364,7 +364,7 @@ nav.navbar#mynavbar-1.navbar-light .navbar-brand {
   color:#fff;
   font-weight:900;
 }
-  
+
 nav.navbar#mynavbar-1 .navbar-brand {
   color:#000;
   font-weight:900;
@@ -401,7 +401,7 @@ nav.navbar#mynavbar-1 .dropdown-submenu.active > a:after{
 nav.navbar#mynavbar-1 .dropdown-submenu > a:after {
     border-color: transparent;
     border-style: solid;
-     border-width: 5px 0 5px 5px; 
+     border-width: 5px 0 5px 5px;
     border-left-color: #cccccc;
 }
 
@@ -427,7 +427,7 @@ nav.navbar#mynavbar-1 .navbar-nav li .dropdown-menu li a{
 
 
 nav.navbar#mynavbar-1 .navbar-nav li .dropdown-menu li:first-child ,
-nav.navbar#mynavbar-1 .navbar-nav li .dropdown-menu li:last-child a 
+nav.navbar#mynavbar-1 .navbar-nav li .dropdown-menu li:last-child a
 {
 	border-bottom:unset;
 }
@@ -482,7 +482,7 @@ nav.navbar#mynavbar .navbar-collapse > ul > li.active > a{
 nav.navbar#mynavbar .navbar-collapse > .navbar-nav > li .dropdown-menu li a:hover ,
 nav.navbar#mynavbar .navbar-collapse > .navbar-nav > li .dropdown-menu li a:focus ,
 nav.navbar#mynavbar .navbar-collapse > .navbar-nav > li .dropdown-menu li.active > a ,
-nav.navbar#mynavbar .navbar-collapse > .navbar-nav > li .dropdown-menu li.active a:hover 
+nav.navbar#mynavbar .navbar-collapse > .navbar-nav > li .dropdown-menu li.active a:hover
 {
 	background-color: #e62a2b;
 	color: black;
@@ -500,7 +500,7 @@ nav.navbar#mynavbar.navbar-light .navbar-brand {
   color:#fff;
   font-weight:900;
 }
-  
+
 nav.navbar#mynavbar .navbar-brand {
   color:#fff;
   font-weight:900;
@@ -533,7 +533,7 @@ nav.navbar#mynavbar .dropdown-submenu.active > a:after{
 nav.navbar#mynavbar .dropdown-submenu > a:after {
     border-color: transparent;
     border-style: solid;
-     border-width: 5px 0 5px 5px; 
+     border-width: 5px 0 5px 5px;
     border-left-color: #cccccc;
 }
 
@@ -559,7 +559,7 @@ nav.navbar#mynavbar .navbar-nav li .dropdown-menu li a{
 
 
 nav.navbar#mynavbar .navbar-nav li .dropdown-menu li:first-child ,
-nav.navbar#mynavbar .navbar-nav li .dropdown-menu li:last-child a 
+nav.navbar#mynavbar .navbar-nav li .dropdown-menu li:last-child a
 {
 	border-bottom:unset;
 }
@@ -641,7 +641,7 @@ nav.navbar#mynav1 .navbar-collapse > ul > li.active > a{
 nav.navbar#mynav1 .navbar-collapse > .navbar-nav > li .dropdown-menu li a:hover ,
 nav.navbar#mynav1 .navbar-collapse > .navbar-nav > li .dropdown-menu li a:focus ,
 nav.navbar#mynav1 .navbar-collapse > .navbar-nav > li .dropdown-menu li.active > a ,
-nav.navbar#mynav1 .navbar-collapse > .navbar-nav > li .dropdown-menu li.active a:hover 
+nav.navbar#mynav1 .navbar-collapse > .navbar-nav > li .dropdown-menu li.active a:hover
 {
 	background-color: black;
 	color: white;
@@ -687,7 +687,7 @@ nav.navbar#mynav1 .dropdown-submenu.active > a:after{
 nav.navbar#mynav1 .dropdown-submenu > a:after {
     border-color: transparent;
     border-style: solid;
-     border-width: 5px 0 5px 5px; 
+     border-width: 5px 0 5px 5px;
     border-left-color: #cccccc;
 }
 
@@ -713,7 +713,7 @@ nav.navbar#mynav1 .navbar-nav li .dropdown-menu li a{
 
 
 nav.navbar#mynav1 .navbar-nav li .dropdown-menu li:first-child ,
-nav.navbar#mynav1 .navbar-nav li .dropdown-menu li:last-child a 
+nav.navbar#mynav1 .navbar-nav li .dropdown-menu li:last-child a
 {
 	border-bottom:unset;
 }
@@ -749,7 +749,7 @@ nav.navbar {
 }
 
 
-nav.navbar#mynavbar-2 .navbar-collapse  ul li a 
+nav.navbar#mynavbar-2 .navbar-collapse  ul li a
 {
 	color: #444;
 }
@@ -762,7 +762,7 @@ nav.navbar#mynavbar-2 .navbar-collapse > ul > li.active > a{
 nav.navbar#mynavbar-2 .navbar-collapse > .navbar-nav > li .dropdown-menu li a:hover ,
 nav.navbar#mynavbar-2 .navbar-collapse > .navbar-nav > li .dropdown-menu li a:focus ,
 nav.navbar#mynavbar-2 .navbar-collapse > .navbar-nav > li .dropdown-menu li.active > a ,
-nav.navbar#mynavbar-2 .navbar-collapse > .navbar-nav > li .dropdown-menu li.active a:hover 
+nav.navbar#mynavbar-2 .navbar-collapse > .navbar-nav > li .dropdown-menu li.active a:hover
 {
 	background-color: #e62a2b;
 	color: black;
@@ -780,7 +780,7 @@ nav.navbar#mynavbar-2.navbar-light .navbar-brand {
   color:#fff;
   font-weight:900;
 }
-  
+
 nav.navbar#mynavbar-2 .navbar-brand {
   color:#000;
   font-weight:900;
@@ -813,7 +813,7 @@ nav.navbar#mynavbar-2 .dropdown-submenu.active > a:after{
 nav.navbar#mynavbar-2 .dropdown-submenu > a:after {
     border-color: transparent;
     border-style: solid;
-     border-width: 5px 0 5px 5px; 
+     border-width: 5px 0 5px 5px;
     border-left-color: #cccccc;
 }
 
@@ -839,7 +839,7 @@ nav.navbar#mynavbar-2 .navbar-nav li .dropdown-menu li a{
 
 
 nav.navbar#mynavbar-2 .navbar-nav li .dropdown-menu li:first-child ,
-nav.navbar#mynavbar-2 .navbar-nav li .dropdown-menu li:last-child a 
+nav.navbar#mynavbar-2 .navbar-nav li .dropdown-menu li:last-child a
 {
 	border-bottom:unset;
 }
@@ -886,7 +886,7 @@ nav.navbar#mynavbar-3.height {
 }
 
 
-nav.navbar#mynavbar-3 .navbar-collapse > ul > li > a 
+nav.navbar#mynavbar-3 .navbar-collapse > ul > li > a
 {
 	color: #fff;
 }
@@ -899,7 +899,7 @@ nav.navbar#mynavbar-3 .navbar-collapse > ul > li.active > a{
 nav.navbar#mynavbar-3 .navbar-collapse > .navbar-nav > li .dropdown-menu li a:hover ,
 nav.navbar#mynavbar-3 .navbar-collapse > .navbar-nav > li .dropdown-menu li a:focus ,
 nav.navbar#mynavbar-3 .navbar-collapse > .navbar-nav > li .dropdown-menu li.active > a ,
-nav.navbar#mynavbar-3 .navbar-collapse > .navbar-nav > li .dropdown-menu li.active a:hover 
+nav.navbar#mynavbar-3 .navbar-collapse > .navbar-nav > li .dropdown-menu li.active a:hover
 {
 	background-color: #e62a2b;
 	color: black;
@@ -917,7 +917,7 @@ nav.navbar#mynavbar-3.navbar-light .navbar-brand {
   color:#fff;
   font-weight:900;
 }
-  
+
 nav.navbar#mynavbar-3 .navbar-brand {
   color:#000;
   font-weight:900;
@@ -950,7 +950,7 @@ nav.navbar#mynavbar-3 .dropdown-submenu.active > a:after{
 nav.navbar#mynavbar-3 .dropdown-submenu > a:after {
     border-color: transparent;
     border-style: solid;
-     border-width: 5px 0 5px 5px; 
+     border-width: 5px 0 5px 5px;
     border-left-color: #cccccc;
 }
 
@@ -980,7 +980,7 @@ nav.navbar#mynavbar-3 .navbar-nav li .dropdown-menu li a{
 
 
 nav.navbar#mynavbar-3 .navbar-nav li .dropdown-menu li:first-child ,
-nav.navbar#mynavbar-3 .navbar-nav li .dropdown-menu li:last-child a 
+nav.navbar#mynavbar-3 .navbar-nav li .dropdown-menu li:last-child a
 {
 	border-bottom:unset;
 }
@@ -1013,7 +1013,7 @@ nav.navbar#mynavbar-1 .navbar-brand ,
 nav.navbar#mynavbar .navbar-brand ,
 nav.navbar#mynav1 .navbar-brand ,
 nav.navbar#mynavbar-2 .navbar-brand ,
-nav.navbar#mynavbar-3 .navbar-brand 
+nav.navbar#mynavbar-3 .navbar-brand
 
 {
 	font-size: 22px !important;
@@ -1023,7 +1023,7 @@ nav.navbar#mynavbar-1 .navbar-brand .fa ,
 nav.navbar#mynavbar .navbar-brand .fa ,
 nav.navbar#mynav1 .navbar-brand .fa ,
 nav.navbar#mynavbar-2 .navbar-brand .fa ,
-nav.navbar#mynavbar-3 .navbar-brand .fa 
+nav.navbar#mynavbar-3 .navbar-brand .fa
 {
  	font-size: 26px;
 }
@@ -1085,7 +1085,7 @@ nav.navbar#mynavbar-3 .navbar-brand .fa
     width: 0.5em;
 	background:#f2f2f2;
 }
- 
+
 #sidebar::-webkit-scrollbar-track{
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
 }
@@ -1164,7 +1164,7 @@ nav.navbar#mynavbar-3 .navbar-brand .fa
 #main-menu .list-group .sub-menu > a.items-list.active,
 #main-menu .list-group .sub-menu > a.items-list:hover,
 #main-menu .list-group .sub-menu > a.items-list:focus{
-	background:#D8D8D8;	
+	background:#D8D8D8;
 	color:#303030;
 }
 
@@ -1191,7 +1191,7 @@ nav.navbar#mynavbar-3 .navbar-brand .fa
 
 
 }
-	
+
 /* -----------------------------------------------------
 		Slider
    ----------------------------------------------------- */
@@ -1249,7 +1249,7 @@ nav.navbar#mynavbar-3 .navbar-brand .fa
 	border-radius:0px;
 	color:#808285;
 	border:2px solid white;
-	border-bottom:0px;	
+	border-bottom:0px;
 }
 
 .search-tabs .nav-tabs li.active a{
@@ -1336,7 +1336,7 @@ nav.navbar#mynavbar-3 .navbar-brand .fa
 #search-tabs-3 .tab-pane form input,
 #search-tabs-3 .tab-pane form input::placeholder,
 #search-tabs-3 .tab-pane form select{
-	color:#8c8d8f;	
+	color:#8c8d8f;
 }
 
 #search-tabs-3 .tab-pane form select option{
@@ -1385,7 +1385,7 @@ nav.navbar#mynavbar-3 .navbar-brand .fa
 
 .main-block:hover .main-img img{
 	transform:scale(1.15);
-} 
+}
 
 .main-info{
 	background:white;
@@ -1443,7 +1443,7 @@ nav.navbar#mynavbar-3 .navbar-brand .fa
 /**************** OFFER-TAG ***************/
 
 .offer-tag{
-	background:#e01a33;	
+	background:#e01a33;
 	color:white;
 	transform:rotate(45deg);
 	box-shadow:0px 3px 5px rgba(0,0,0,0.2);
@@ -1584,14 +1584,14 @@ nav.navbar#mynavbar-3 .navbar-brand .fa
 }
 
 @media(min-width:992px) and (max-width:1199px){
-	
+
 	.flight-timing li:first-child{
 		border-right:0px;
 	}
 }
 
 @media(max-width:420px){
-	
+
 	.flight-timing li:first-child{
 		border-right:0px;
 	}
@@ -1610,7 +1610,7 @@ nav.navbar#mynavbar-3 .navbar-brand .fa
 /* -----------------------------------------------------
 		Destination Block
    ----------------------------------------------------- */
-   
+
 .destination-block{
 	border:1px solid #e6e7e8;
 }
@@ -1631,7 +1631,7 @@ nav.navbar#mynavbar-3 .navbar-brand .fa
 .destination-title .destination-price{
 	color:#e62a2b;
 }
- 
+
 .destination-title .btn{
 	color:white;
 }
@@ -1710,7 +1710,7 @@ nav.navbar#mynavbar-3 .navbar-brand .fa
 .gallery-block .gallery-mask .gallery-title p{
 	color:#e62a2b;
 }
-   
+
 /* -----------------------------------------------------
 		Best Features
    ----------------------------------------------------- */
@@ -1742,7 +1742,7 @@ nav.navbar#mynavbar-3 .navbar-brand .fa
 
 /*********** LIGHTGREY-FEATURES ***********/
 
-#best-features.lightgrey-features{	
+#best-features.lightgrey-features{
 	background:#f5f5f5;
 	color:#000;
 }
@@ -1858,7 +1858,7 @@ nav.navbar#mynavbar-3 .navbar-brand .fa
    ----------------------------------------------------- */
 
 /************** VIDEO-BANNER **************/
-  
+
 #video-banner{
 	background: linear-gradient(rgba(0, 0, 0,0.6),rgba(0, 0, 0,0.6)),url('../images/video-banner.jpg') 50% 37%;
 	background-size:140%;
@@ -2080,7 +2080,7 @@ nav.navbar#mynavbar-3 .navbar-brand .fa
 /************* HOTEL-PACKAGES *************/
 
 #hotel-packages{
-	background:#eeeeee;	
+	background:#eeeeee;
 }
 
 .hotel-package:hover{
@@ -2357,13 +2357,13 @@ nav.navbar#mynavbar-3 .navbar-brand .fa
 /* -----------------------------------------------------
 		Page Cover
    ----------------------------------------------------- */
-   
+
 .page-cover{
 	color:white;
 }
 
 .page-cover::before{
-	background:linear-gradient( to right, rgba(0, 0, 0,1) 0%,rgba(0, 0, 0,1) 26%, rgba(0, 0, 0,0.6) 46%, rgba(0, 0, 0,0) 64%,rgba(0, 0, 0,0) 100%);	
+	background:linear-gradient( to right, rgba(0, 0, 0,1) 0%,rgba(0, 0, 0,1) 26%, rgba(0, 0, 0,0.6) 46%, rgba(0, 0, 0,0) 64%,rgba(0, 0, 0,0) 100%);
 }
 
 .page-cover .breadcrumb{
@@ -2380,9 +2380,9 @@ nav.navbar#mynavbar-3 .navbar-brand .fa
 }
 
 @media(max-width:768px){
-	
+
 	.page-cover::before{
-		background:linear-gradient( to right, rgba(0, 0, 0,1) 0%,rgba(0, 0, 0,1) 26%, rgba(0, 0, 0,0.6) 66%, rgba(0, 0, 0,0) 84%,rgba(0, 0, 0,0) 100%);	
+		background:linear-gradient( to right, rgba(0, 0, 0,1) 0%,rgba(0, 0, 0,1) 26%, rgba(0, 0, 0,0.6) 66%, rgba(0, 0, 0,0) 84%,rgba(0, 0, 0,0) 100%);
 	}
 }
 
@@ -2643,13 +2643,13 @@ nav.navbar#mynavbar-3 .navbar-brand .fa
 /*********** PAGE-COVER STYLE4 ***********/
 
 .page-cover.style4{
-	background:#404040;	
+	background:#404040;
 }
 
 /*********** PAGE-COVER STYLE5 ***********/
 
 .page-cover.style5{
-	background:#e62a2b;	
+	background:#e62a2b;
 }
 
 /********** COVER OFFER PAGES ************/
@@ -2755,7 +2755,7 @@ nav.navbar#mynavbar-3 .navbar-brand .fa
 	border-top:1px solid #808285;
 	background:#f5f5f5;
 }
-  
+
 .side-bar .filter-block .price-slider input{
 	background:transparent;
 	border:0px;
@@ -2829,7 +2829,7 @@ nav.navbar#mynavbar-3 .navbar-brand .fa
 .side-bar .booking-form .form-group select,
 .side-bar .booking-form .form-group textarea,
 .side-bar .booking-form .form-group textarea::placeholder{
-	color:#808285;	
+	color:#808285;
 }
 
 .side-bar .booking-form .form-group select option{
@@ -2976,7 +2976,7 @@ nav.navbar#mynavbar-3 .navbar-brand .fa
    ----------------------------------------------------- */
 
 .block-title a{
-	color:#000;	
+	color:#000;
 }
 
 .block-info{
@@ -3101,7 +3101,7 @@ nav.navbar#mynavbar-3 .navbar-brand .fa
 }
 
 @media(max-width:991px){
-	
+
 	.f-list-block .flight-timing li:first-child{
 		border-right:0px;
 	}
@@ -3116,7 +3116,7 @@ nav.navbar#mynavbar-3 .navbar-brand .fa
 /* -----------------------------------------------------
 		Pagination
    ----------------------------------------------------- */
-   
+
 .pages .pagination li a{
 	border-radius:0px;
 	background:#e6e7e8;
@@ -3175,11 +3175,11 @@ nav.navbar#mynavbar-3 .navbar-brand .fa
 }
 
 @media(max-width:768px){
-	
+
 	.detail-tabs .nav-tabs.nav-justified > .active > a{
 		border-bottom-color:#e6e7e8;
 	}
-	
+
 	.detail-tabs .tab-content .tab-pane{
 		border-top:1px solid #e6e7e8;
 	}
@@ -3188,7 +3188,7 @@ nav.navbar#mynavbar-3 .navbar-brand .fa
 /* -----------------------------------------------------
 		Detail Pages Slider
    ----------------------------------------------------- */
-   
+
 .detail-slider .features li{
 	background:rgba(0,0,0,0.6);
 	color:white;
@@ -3426,9 +3426,9 @@ nav.navbar#mynavbar-3 .navbar-brand .fa
 	color:white;
 	opacity:1;
 }
-   
+
 #popup-ad .modal-content .modal-body:after{
-	background:#303030;	
+	background:#303030;
 	transform:rotate(45deg);
 }
 
@@ -3848,7 +3848,7 @@ nav.navbar#mynavbar-3 .navbar-brand .fa
 }
 
 @media(max-width:768px){
-	
+
 	.dashboard-listing .table-responsive{
 		border:0px;
 	}
@@ -3981,18 +3981,18 @@ nav.navbar#mynavbar-3 .navbar-brand .fa
 }
 
 @media(min-width:768px){
-	
+
 	.wishlist tr{
 		border:1px solid #ddd;
-	}	
+	}
 
 }
 
 @media(max-width:767px){
-	
+
 	.wishlist tr{
 		border-bottom:1px solid #ddd;
-	}	
+	}
 }
 
 /************** CARD PAGE **************/
@@ -4090,11 +4090,11 @@ nav.navbar#mynavbar-3 .navbar-brand .fa
 }
 
 @media(max-width:767px){
-	
+
 	.byf-info .nav-tabs li{
 		border-top:1px solid rgba(255,255,255,0.1);
 	}
-	
+
 	.byf-info .nav-tabs li a{
 		border-radius:0px;
 	}
@@ -4152,7 +4152,7 @@ nav.navbar#mynavbar-3 .navbar-brand .fa
 }
 
 #popular-destinations li:before{
-	color:#e62a2b;	
+	color:#e62a2b;
 }
 
 #popular-destinations li a{
@@ -4178,7 +4178,7 @@ nav.navbar#mynavbar-3 .navbar-brand .fa
 }
 
 .thank-you-note:before{
-	color:lightgrey;	
+	color:lightgrey;
 	animation: thumbs-up 3s infinite;
 	animation-timing-function: ease-in-out;
 }
@@ -4262,7 +4262,7 @@ nav.navbar#mynavbar-3 .navbar-brand .fa
 /************* SERVICES-2 PAGE ************/
 
 #process-flow{
-	background:#eeeeee;	
+	background:#eeeeee;
 }
 
 .process-block{
@@ -4293,7 +4293,7 @@ nav.navbar#mynavbar-3 .navbar-brand .fa
 }
 
 @media(max-width:576px){
-	
+
 	.process li::before,
 	.process li::after{
 		display:none;
@@ -4317,7 +4317,7 @@ nav.navbar#mynavbar-3 .navbar-brand .fa
 }
 
 .member-info-2{
-	border:1px solid #e6e7e8;	
+	border:1px solid #e6e7e8;
 }
 
 .member-info-2 h4{
@@ -4334,7 +4334,7 @@ nav.navbar#mynavbar-3 .navbar-brand .fa
 
 #faq-page .content-side .faq-heading::before,
 #faq-page .content-side .card-title::after{
-	background:#e62a2b;	
+	background:#e62a2b;
 }
 
 #faq-page .content-side .card{
@@ -4400,7 +4400,7 @@ nav.navbar#mynavbar-3 .navbar-brand .fa
 }
 
 #travel-guide .tab-content .tab-pane{
-	border:0px;	
+	border:0px;
 	border-bottom:3px solid #4d4d4d;
 }
 
@@ -4456,7 +4456,7 @@ nav.navbar#mynavbar-3 .navbar-brand .fa
    ----------------------------------------------------- */
 
 .contact-block-2{
-	box-shadow:0px 0px 20px rgba(0,0,0,0.2);	
+	box-shadow:0px 0px 20px rgba(0,0,0,0.2);
 }
 
 .contact-block-2 .fa{
@@ -4468,11 +4468,11 @@ nav.navbar#mynavbar-3 .navbar-brand .fa
 }
 
 #contact-form-2 .social-links li a{
-	color:#b3b3b3;	
+	color:#b3b3b3;
 }
 
 #contact-form-2 .social-links li a:hover{
-	color:#e62a2b;	
+	color:#e62a2b;
 }
 
 #contact-form-2 form input,

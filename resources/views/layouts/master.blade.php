@@ -3,6 +3,7 @@ $home_menu = (isset($home_menu) && $home_menu == true) ? 'active' : '';
 $hotel_menu = (isset($hotel_menu) && $hotel_menu == true) ? 'active' : '';
 $tour_menu = (isset($tour_menu) && $tour_menu == true) ? 'active' : '';
 $blog_menu = (isset($blog_menu) && $blog_menu == true) ? 'active' : '';
+$service_menu = (isset($service_menu) && $service_menu == true) ? 'active' : '';
 $contact_menu = (isset($contact_menu) && $contact_menu == true) ? 'active' : '';
 
 
@@ -96,7 +97,18 @@ $contact_menu = (isset($contact_menu) && $contact_menu == true) ? 'active' : '';
                     <li class="nav-item  {{$tour_menu}}">
                         <a href="{{route('tours')}}" class="nav-link"   >Tours</a>
                     </li>
+                    <li class="nav-item dropdown">
+                        <a href="{{route('services')}}" class="nav-link" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services<span><i class="fa fa-angle-down "></i></span></a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            @foreach($services as $service)
+                            <li><a href="{{route('services')}}" class="dropdown-item">{{ucwords($service->name)}}</a></li>
+                            @endforeach
 
+                        </ul>
+                    </li>
+                    <li class="nav-item {{$service_menu}} ">
+                        <a href="{{route('services')}}" class="nav-link "   >Services</a>
+                    </li>
                     <li class="nav-item {{$blog_menu}} ">
                         <a href="{{route('news')}}" class="nav-link "   >News</a>
                     </li>
@@ -129,6 +141,7 @@ $contact_menu = (isset($contact_menu) && $contact_menu == true) ? 'active' : '';
                     <a class="items-list {{$tour_menu}}" href="{{route('tours')}}" ><span><i class="fa fa-globe link-icon"></i></span>Tours<span></a>
 
 
+                    <a class="items-list {{$service_menu}}" href="{{route('services')}}" ><span><i class="fa fa-list link-icon"></i></span>Services</a>
                     <a class="items-list {{$blog_menu}}" href="{{route('news')}}" ><span><i class="fa fa-newspaper-o link-icon"></i></span>News</a>
 
                     <a class="items-list {{$contact_menu}}" href="{{route('contact-us')}}" ><span><i class="fa fa-puzzle-piece link-icon"></i></span>Contact Us</a>
@@ -161,13 +174,10 @@ $contact_menu = (isset($contact_menu) && $contact_menu == true) ? 'active' : '';
                     <div class="col-12 col-md-6 col-lg-2 col-xl-2 footer-widget ftr-links">
                         <h3 class="footer-heading">SERVICES</h3>
                         <ul class="list-unstyled">
-                            <li><a href="#">Flight Tickets</a></li>
-                            <li><a href="#">Hotel Reservation</a></li>
-                            <li><a href="#">Hotel Accommodation</a></li>
-                            <li><a href="#">Tour packages</a></li>
-                            <li><a href="#">Visa services</a></li>
-                            <li><a href="#">Travel Insurance</a></li>
-                            <li><a href="#">Private Jet Charter</a></li>
+                            @foreach($services as $service)
+                            <li><a href="{{route('services')}}">{{ucwords($service->name)}}</a></li>
+                            @endforeach
+
                         </ul>
                     </div><!-- end columns -->
 
@@ -175,6 +185,7 @@ $contact_menu = (isset($contact_menu) && $contact_menu == true) ? 'active' : '';
                         <h3 class="footer-heading">QUICK LINKS</h3>
                         <ul class="list-unstyled">
                             <li><a href="{{route('home')}}">Home</a></li>
+                            <li><a href="{{route('services')}}">Services</a></li>
                             <li><a href="{{route('news')}}">News</a></li>
                             <li><a href="{{route('hotels')}}">Hotels</a></li>
                             <li><a href="{{route('contact-us')}}">Contact Us</a></li>
