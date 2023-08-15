@@ -5,7 +5,7 @@
 
 
     <!--========================= FLEX SLIDER =====================-->
-    <section class="flexslider-container" id="flexslider-container-1">
+    <section class="flexslider-container mb-4" id="flexslider-container-1">
 
         <div class="flexslider slider" id="slider-1">
             <ul class="slides">
@@ -26,6 +26,45 @@
 
     </section><!-- end flexslider-container -->
 
+
+    <!--==================== VIDEO BANNER ===================-->
+    <section id="video-banner" class="banner-padding back-size ">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <h2>Watch Video </h2>
+                    {{--                    <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam delectus ei vis. Est atqui timeam mnesarchum at, pro an eros perpetua ullamcorper.</p>--}}
+                    <div class="margin-small py-5 mt-5 m-sm-0 "></div>
+
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn video-btn" id="play-button" data-toggle="modal" data-src="{{asset('videos/PROMO.mp4')}}" data-target="#myModal"><span><i class="fa fa-play mt-0 m-sm-0"></i></span>
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+
+                                <div class="modal-body">
+
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    <!-- 16:9 aspect ratio -->
+
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always">></iframe>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- end columns -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </section><!-- end video-banner -->
 
     <!--=============== HOTEL OFFERS ===============-->
     <section id="hotel-offers" class="section-padding">
@@ -84,6 +123,7 @@
         </div><!-- end container -->
     </section>
     <!-- end hotel-offers -->
+
 
     <!--======================= BEST FEATURES =====================-->
     <section id="best-features" class="banner-padding black-features">
