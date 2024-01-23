@@ -211,4 +211,13 @@ $contact_menu = (isset($contact_menu) && $contact_menu == true) ? 'active' : '';
 
 {{--    @yield('ads')--}}
 
+<!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KRPT812BRD"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-KRPT812BRD');
+    </script>
 @include('includes.scripts')

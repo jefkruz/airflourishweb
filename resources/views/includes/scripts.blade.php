@@ -13,8 +13,6 @@
 <script src="{{asset('js/custom-date-picker.js')}}"></script>
 <script src="{{asset('js/custom-video.js')}}"></script>
 
-<!-- Google tag (gtag.js) --> <script async src="">https://www.googletagmanager.com/gtag/js?id=G-0G6Y53SXM2"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-0G6Y53SXM2'); </script>
-<!-- Page Scripts Ends -->
 
 @yield('scripts')
 </body>
