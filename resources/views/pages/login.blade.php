@@ -13,7 +13,7 @@
                 <div class="col-md-12">
                     <div class="full-page-title">
                         <h3 class="company-name"><span><i class="fa fa-plane"></i>Air</span>Flourish</h3>
-                        <p><br>  </p>
+                        <p>  </p>
 
                     </div><!-- end full-page-title -->
 
@@ -33,8 +33,7 @@
                         <div class="other-links">
                             <p class="link-line">New Here ? <a href="{{route('register')}}">Signup</a></p>
                             <br>
-                            <br>
-                            <br>
+
 
 {{--                            <a class="simple-link" href="#">Forgot Password ?</a>--}}
                         </div><!-- end other-links -->
