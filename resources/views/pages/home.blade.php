@@ -77,7 +77,7 @@
                                                 <div class="col-6 col-md-6 col-lg-6">
                                                     <div class="form-group left-icon">
                                                         <input type="text" class="form-control dpd1"
-                                                               placeholder="Check In">
+                                                               placeholder="Leaving on">
                                                         <i class="fa fa-calendar"></i>
                                                     </div>
                                                 </div><!-- end columns -->
@@ -85,7 +85,7 @@
                                                 <div class="col-6 col-md-6 col-lg-6">
                                                     <div class="form-group left-icon">
                                                         <input type="text" class="form-control dpd2"
-                                                               placeholder="Check Out">
+                                                               placeholder="Returning on">
                                                         <i class="fa fa-calendar"></i>
                                                     </div>
                                                 </div><!-- end columns -->
