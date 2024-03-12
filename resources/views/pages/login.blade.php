@@ -11,11 +11,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-<br>
-<br>
                     <div class="full-page-title">
                         <h3 class="company-name"><span><i class="fa fa-plane"></i>Air</span>Flourish</h3>
-                        <p><br> <br> <br> </p>
+                        <p><br>  </p>
 
                     </div><!-- end full-page-title -->
 
@@ -37,7 +35,7 @@
                             <br>
                             <br>
                             <br>
-                            <br>
+
 {{--                            <a class="simple-link" href="#">Forgot Password ?</a>--}}
                         </div><!-- end other-links -->
                     </div><!-- end custom-form -->
