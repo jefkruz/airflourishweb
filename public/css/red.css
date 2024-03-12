@@ -3377,7 +3377,7 @@ nav.navbar#mynavbar-3 .navbar-brand .fa
 /************ FULL PAGE FORMS ************/
 
 #full-page-form{
-	background:linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.1)),url('../images/cover-full-page-form.jpg') 50% 40%;
+	background:linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.1)),url('../images/background.jpg') 50% 40%;
 	background-size:cover;
 }
 

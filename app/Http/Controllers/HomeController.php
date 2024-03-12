@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Booker;
+use App\Models\Country;
 use App\Models\Hotel;
 use App\Models\Service;
 use App\Models\Slide;
@@ -26,6 +28,76 @@ class HomeController extends Controller
         $this->data['news'] = Post::limit(3)->latest()->get();
     }
 
+    public function showRegistration($username = 'airflourish')
+    {
+        $data = $this->data;
+        $data['reg_menu'] = true;
+        $data['refer'] = Booker::whereUsername($username)->firstOrFail();
+        $data['countries'] = Country::all();
+        $data['page_title'] = 'Register';
+        return view('pages.register',$data);
+    }
+
+    public function showLogin()
+    {
+        $data = $this->data;
+        $data['log_menu'] = true;
+        $data['page_title'] = 'Login';
+        return view('pages.login',$data);
+    }
+
+    public function login(Request $request)
+    {
+        $user = Booker::whereEmail($request->login)->orWhere('username', $request->login)->first();
+        if(!$user){
+            return back()->withInput()->with('error', 'No Account fund for this User');
+        }
+        session()->put('user',$user);
+        return to_route('home');
+
+    }
+
+    public function register(Request $request)
+    {
+        $request->validate([
+            'referral_id' => 'required',
+            'email' => 'required|unique:users|email',
+            'username' => 'unique:bookers|alpha_dash|min:4',
+            'first_name' => 'required',
+            'last_name' => 'required',
+            'phone' => 'required',
+            'country' => 'required',
+
+        ],[
+
+            'email.unique' => 'This email is already taken.',
+            'username.unique' => 'This username is already taken.',
+            'username.alpha_dash' => 'The username may only contain letters, numbers, dashes, and underscores.',
+            'username.min' => 'The username must be at least 4 characters.'
+
+        ]);
+
+        $refer = Booker::findOrFail($request->referral_id);
+
+        $userExists = Booker::whereEmail($request->email)->orWhere('username', $request->username)->exists();
+        if($userExists){
+            return back()->withInput()->with('error', 'User exists already');
+        }
+
+        $user = new Booker();
+        $user->referral_id = $refer->id;
+        $user->email = $request->email;
+        $user->first_name = $request->first_name;
+        $user->last_name = $request->last_name;
+        $user->phone = $request->phone;
+        $user->username = $request->username;
+        $user->country = $request->country;
+
+        $user->save();
+        session()->put('user',$user);
+        return to_route('home');
+    }
+
     public function home()
     {
         $data = $this->data;
@@ -33,6 +105,16 @@ class HomeController extends Controller
         $data['home_menu'] = true;
       $data['slides'] = Slide::all();
       return view('pages.home',$data);
+    }
+
+    public function dashboard()
+    {
+        $data = $this->data;
+        $data['page_title'] = 'Dashboard';
+        $data['user'] = session('user');
+
+        $data['dash_menu'] = true;
+        return view('pages.dashboard',$data);
     }
 
     public function hotels()
@@ -82,8 +164,15 @@ class HomeController extends Controller
 
     public function contact()
     {
+        $data = $this->data;
         $data['page_title'] = 'Contact  Us';
         $data['contact_menu'] = true;
         return view('pages.contact',$data);
+    }
+
+    public function logout()
+    {
+        session()->flush();
+        return to_route('home');
     }
 }

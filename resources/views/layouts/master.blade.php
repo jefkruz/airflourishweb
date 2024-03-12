@@ -5,6 +5,9 @@ $tour_menu = (isset($tour_menu) && $tour_menu == true) ? 'active' : '';
 $blog_menu = (isset($blog_menu) && $blog_menu == true) ? 'active' : '';
 $service_menu = (isset($service_menu) && $service_menu == true) ? 'active' : '';
 $contact_menu = (isset($contact_menu) && $contact_menu == true) ? 'active' : '';
+$reg_menu = (isset($reg_menu) && $reg_menu == true) ? 'active' : '';
+$log_menu = (isset($log_menu) && $log_menu == true) ? 'active' : '';
+$dash_menu = (isset($dash_menu) && $dash_menu == true) ? 'active' : '';
 
 
 ?>
@@ -63,10 +66,18 @@ $contact_menu = (isset($contact_menu) && $contact_menu == true) ? 'active' : '';
 
             <div class="collapse navbar-collapse" id="myNavbar1">
                 <ul class="navbar-nav ml-auto navbar-search-link">
+
                     <li class="nav-item  {{$home_menu}}">
                         <a href="{{route('home')}}" class="nav-link" >Home</a>
 
                     </li>
+                    @if(session('user'))
+                        <li class="nav-item  {{$dash_menu}}">
+                            <a href="{{route('dashboard')}}" class="nav-link" >Dashboard</a>
+
+                        </li>
+
+                    @endif
                     <li class="nav-item {{$hotel_menu}}">
                         <a href="{{route('hotels')}}" class="nav-link"   >Hotels</a>
                     </li>
@@ -89,6 +100,19 @@ $contact_menu = (isset($contact_menu) && $contact_menu == true) ? 'active' : '';
                     <li class="nav-item {{$contact_menu}}">
                         <a href="{{route('contact-us')}}" class="nav-link"   >Contact</a>
                     </li>
+                    @if(!session('user'))
+                    <li class="nav-item {{$log_menu}}">
+                        <a href="{{route('login')}}" class="nav-link"   >Login</a>
+                    </li>
+                    <li class="nav-item {{$reg_menu}}">
+                        <a href="{{route('register')}}" class="nav-link"   >Register</a>
+                    </li>
+                    @endif
+                    @if(session('user'))
+                        <li class="nav-item {{$reg_menu}}">
+                            <a href="{{route('logout')}}" class="nav-link"   >Log Out</a>
+                        </li>
+                        @endif
                     <li class="dropdown-item search-btn">
                         <a href="#" class="search-button" onClick="openSearch()"><span><i class="fa fa-search"></i></span></a>
                     </li>
@@ -108,8 +132,9 @@ $contact_menu = (isset($contact_menu) && $contact_menu == true) ? 'active' : '';
                 <div class="list-group panel">
                     <a href="{{route('home')}}" class="items-list {{$home_menu}}" data-toggle="collapse" aria-expanded="false">
                         <span><i class="fa fa-home link-icon"></i></span>Home<span></span></a>
-
-
+                    @if(session('user'))
+                    <a class="items-list {{$dash_menu}}" href="{{route('dashboard')}}" ><span><i class="fa fa-dashboard link-icon"></i></span>Dashboard</a>
+                    @endif
                     <a class="items-list {{$hotel_menu}}" href="{{route('hotels')}}" ><span><i class="fa fa-building link-icon"></i></span>Hotels</a>
 
                     <a class="items-list {{$tour_menu}}" href="{{route('tours')}}" ><span><i class="fa fa-globe link-icon"></i></span>Tours<span></a>
@@ -119,7 +144,14 @@ $contact_menu = (isset($contact_menu) && $contact_menu == true) ? 'active' : '';
                     <a class="items-list {{$blog_menu}}" href="{{route('news')}}" ><span><i class="fa fa-newspaper-o link-icon"></i></span>News</a>
 
                     <a class="items-list {{$contact_menu}}" href="{{route('contact-us')}}" ><span><i class="fa fa-puzzle-piece link-icon"></i></span>Contact Us</a>
+                    @if(!session('user'))
+                    <a class="items-list {{$log_menu}}" href="{{route('login')}}" ><span><i class="fa fa-sign-in link-icon"></i></span>Login</a>
+                    <a class="items-list {{$reg_menu}}" href="{{route('register')}}" ><span><i class="fa fa-sign-out link-icon"></i></span>Register</a>
+                    @endif
+                    @if(session('user'))
+                        <a class="items-list {{$reg_menu}}" href="{{route('logout')}}" ><span><i class="fa fa-power-off link-icon"></i></span>Log Out</a>
 
+                    @endif
 
                 </div><!-- End list-group panel -->
             </div><!-- End main-menu -->
@@ -220,4 +252,6 @@ $contact_menu = (isset($contact_menu) && $contact_menu == true) ? 'active' : '';
 
         gtag('config', 'G-KRPT812BRD');
     </script>
+
+
 @include('includes.scripts')
