@@ -12,6 +12,8 @@
 <script src="{{asset('js/custom-owl.js')}}"></script>
 <script src="{{asset('js/custom-date-picker.js')}}"></script>
 <script src="{{asset('js/custom-video.js')}}"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.7/dist/sweetalert2.all.min.js"></script>
+
 
 
 @yield('scripts')

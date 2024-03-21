@@ -53,7 +53,7 @@ class HomeController extends Controller
             return back()->withInput()->with('error', 'No Account fund for this User');
         }
         session()->put('user',$user);
-        return to_route('home');
+        return to_route('dashboard');
 
     }
 

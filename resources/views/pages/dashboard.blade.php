@@ -10,7 +10,9 @@
                         <div class="dashboard-heading">
                             <h2>Travel <span>Profile</span></h2>
                             <p>Hi {{$user->first_name. ' ' . $user->last_name}}, Welcome to AirFlourish  Travels!</p>
-                            <p>All your trips booked with us will appear here and you'll be able to manage everything!</p>
+                            <p hidden id="referrals" >{{url('register'.'/'.$user->username)}}</p>
+                            <button class="btn btn-orange btn-outline btn-block btn-lg"  onclick="copyToClipboard('Thank You',' Your Referral Link has been copied','success','#referrals')">Copy your Referral  Link</button>
+
                         </div><!-- end dashboard-heading -->
 
                         <div class="dashboard-wrapper">
@@ -27,7 +29,8 @@
                                 </div><!-- end columns -->
 
                                 <div class="col-12 col-md-10 col-lg-10 dashboard-content">
-                                    <h2 class="dash-content-title">Total Traveled</h2>
+{{--                                    <h2 class="dash-content-title">Click the button below to copy your Referral Link</h2>--}}
+
                                     <div class="row info-stat">
 
                                         <div class="col-md-6 col-lg-3">
@@ -176,5 +179,68 @@
 
     <!-- end innerpage-wrapper -->
 
+    <!--===== INNERPAGE-WRAPPER ====-->
+{{--    <section class="innerpage-wrapper">--}}
+{{--        <div id="popup-ad-page" class="section-padding">--}}
+{{--            <div class="container">--}}
+{{--                <div class="row">--}}
+{{--                    <div class="col-12 col-md-12">--}}
+{{--                        <h3 class=" mg-bot-30">Click on the button also enable Popup-Ad to show.</h3>--}}
+{{--                        <button class="btn btn-orange btn-lg" data-toggle="modal" data-target="#popup-ad">Toggle Popup Ad</button>--}}
+{{--                        <div id="popup-ad" class="modal fade" role="dialog">--}}
+{{--                            <div class="modal-dialog">--}}
+{{--                                <div class="modal-content">--}}
+
+{{--                                    <div class="modal-body">--}}
+{{--                                        <button type="button" class="close" data-dismiss="modal">&times;</button>--}}
+
+{{--                                        <div class="row">--}}
+{{--                                            <div class="col-12 col-md-6">--}}
+{{--                                                <div class="popup-ad-text">--}}
+
+{{--                                                    <h2><span class="text-success">SUCCESS</span></h2>--}}
+{{--                                                    <h4>Thank You {{$user->first_name. ' ' . $user->last_name}}</h4>--}}
+{{--                                                    <p>Your unique Referral Link has been copied</p>--}}
+
+{{--                                                </div><!-- end popup-ad-text -->--}}
+{{--                                            </div><!-- end columns -->--}}
+
+{{--                                            <div class="col-12 col-md-6">--}}
+{{--                                                <div class="popup-ad-img">--}}
+{{--                                                    <img src="{{asset('images/success.png')}}" class="img-fluid" />--}}
+{{--                                                </div><!-- end popup-ad-img -->--}}
+{{--                                            </div><!-- end columns -->--}}
+{{--                                        </div><!-- end row -->--}}
+
+{{--                                    </div><!-- end modal-body -->--}}
+{{--                                </div><!-- end modal-content -->--}}
+{{--                            </div><!-- end modal-dialog -->--}}
+{{--                        </div><!-- end popup-ad -->--}}
+
+{{--                    </div><!-- end columns -->--}}
+{{--                </div><!-- end row -->--}}
+{{--            </div><!-- end container -->--}}
+{{--        </div><!-- end popup-ad-page -->--}}
+{{--    </section><!-- end innerpage-wrapper -->--}}
+
+
+@endsection
+@section('scripts')
+
+    <script>
+        function copyToClipboard(h1,h5,animicon,element) {
+            var $temp = $("<input>");
+            $("body").append($temp);
+            $temp.val($(element).text()).select();
+            document.execCommand("copy");
+            $temp.remove();
+            /*sweet allert*/
+            Swal.fire(
+                h1,
+                h5,
+                animicon
+            )
+        }
+    </script>
 
 @endsection
