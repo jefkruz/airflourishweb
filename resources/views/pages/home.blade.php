@@ -480,7 +480,7 @@
 
                                     <div class="main-title hotel-title">
                                         <a href="#">{{ucwords($hotel->name)}}</a>
-                                        <p>{{ucwords($hotel->location)}}</p>
+                                        <p>{{ucwords($hotel->address)}}</p>
                                     </div><!-- end hotel-title -->
                                 </div><!-- end hotel-info -->
                             </div><!-- end hotel-block -->
@@ -645,55 +645,55 @@
 
 
     <!--================ LATEST BLOG ==============-->
-    <section id="latest-blog" class="section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="page-heading">
-                        <h2>Our Latest News</h2>
-                        <hr class="heading-line" />
-                    </div>
+{{--    <section id="latest-blog" class="section-padding">--}}
+{{--        <div class="container">--}}
+{{--            <div class="row">--}}
+{{--                <div class="col-md-12">--}}
+{{--                    <div class="page-heading">--}}
+{{--                        <h2>Our Latest News</h2>--}}
+{{--                        <hr class="heading-line" />--}}
+{{--                    </div>--}}
 
-                    <div class="row">
-                        @foreach($news as $post)
-                            @php  $post->slug = 'news/'.$post->slug;@endphp
-                            <div class="col-md-6 col-lg-4">
-                                <div class="main-block latest-block">
-                                    <div class="main-img latest-img">
-                                        <a href="{{$post->slug}}">
-                                            <img src="{{asset('storage/'.$post->image)}}" class="img-fluid" alt="{{$post->title}}" />
-                                        </a>
-                                    </div><!-- end latest-img -->
+{{--                    <div class="row">--}}
+{{--                        @foreach($news as $post)--}}
+{{--                            @php  $post->slug = 'news/'.$post->slug;@endphp--}}
+{{--                            <div class="col-md-6 col-lg-4">--}}
+{{--                                <div class="main-block latest-block">--}}
+{{--                                    <div class="main-img latest-img">--}}
+{{--                                        <a href="{{$post->slug}}">--}}
+{{--                                            <img src="{{asset('storage/'.$post->image)}}" class="img-fluid" alt="{{$post->title}}" />--}}
+{{--                                        </a>--}}
+{{--                                    </div><!-- end latest-img -->--}}
 
-                                    <div class="latest-info">
-                                        <ul class="list-unstyled">
-                                            <li><span><i class="fa fa-calendar-minus-o"></i></span>{{$post->created_at->format('d M Y')}}<span class="author">by: <a href="{{$post->slug}}">Administrator</a></span></li>
-                                        </ul>
-                                    </div><!-- end latest-info -->
+{{--                                    <div class="latest-info">--}}
+{{--                                        <ul class="list-unstyled">--}}
+{{--                                            <li><span><i class="fa fa-calendar-minus-o"></i></span>{{$post->created_at->format('d M Y')}}<span class="author">by: <a href="{{$post->slug}}">Administrator</a></span></li>--}}
+{{--                                        </ul>--}}
+{{--                                    </div><!-- end latest-info -->--}}
 
-                                    <div class="main-info latest-desc">
-                                        <div class="row">
-                                            <div class="col-10 col-md-10 main-title">
-                                                <a href="{{$post->slug}}">{{ucwords($post->title)}}</a>
-                                                <p>{!! html_entity_decode(Str::limit($post->body, 200)) !!}</p>
-                                            </div><!-- end columns -->
-                                        </div><!-- end row -->
+{{--                                    <div class="main-info latest-desc">--}}
+{{--                                        <div class="row">--}}
+{{--                                            <div class="col-10 col-md-10 main-title">--}}
+{{--                                                <a href="{{$post->slug}}">{{ucwords($post->title)}}</a>--}}
+{{--                                                <p>{!! html_entity_decode(Str::limit($post->body, 200)) !!}</p>--}}
+{{--                                            </div><!-- end columns -->--}}
+{{--                                        </div><!-- end row -->--}}
 
-                                        <span class="arrow"><a href="{{$post->slug}}"><i class="fa fa-angle-right"></i></a></span>
-                                    </div><!-- end latest-desc -->
-                                </div><!-- end latest-block -->
-                            </div><!-- end columns -->
-                        @endforeach
+{{--                                        <span class="arrow"><a href="{{$post->slug}}"><i class="fa fa-angle-right"></i></a></span>--}}
+{{--                                    </div><!-- end latest-desc -->--}}
+{{--                                </div><!-- end latest-block -->--}}
+{{--                            </div><!-- end columns -->--}}
+{{--                        @endforeach--}}
 
-                    </div><!-- end row -->
+{{--                    </div><!-- end row -->--}}
 
-                    <div class="view-all text-center">
-                        <a href="{{route('news')}}" class="btn btn-orange">View All</a>
-                    </div><!-- end view-all -->
-                </div><!-- end columns -->
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </section><!-- end latest-blog -->
+{{--                    <div class="view-all text-center">--}}
+{{--                        <a href="{{route('news')}}" class="btn btn-orange">View All</a>--}}
+{{--                    </div><!-- end view-all -->--}}
+{{--                </div><!-- end columns -->--}}
+{{--            </div><!-- end row -->--}}
+{{--        </div><!-- end container -->--}}
+{{--    </section><!-- end latest-blog -->--}}
 
 
 

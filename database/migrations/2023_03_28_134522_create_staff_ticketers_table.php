@@ -13,17 +13,13 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('bookers', function (Blueprint $table) {
+        Schema::create('staff_ticketers', function (Blueprint $table) {
             $table->id();
-            $table->bigInteger('referral_id')->nullable();
-            $table->string('first_name');
-            $table->string('last_name');
-            $table->string('username')->nullable();
+            $table->string('title');
+            $table->string('firstname');
+            $table->string('lastname');
             $table->string('email');
-            $table->string('phone');
-            $table->string('dob')->nullable();
-            $table->string('city')->nullable();
-            $table->string('country');
+            $table->string('phone')->nullable();
             $table->timestamps();
         });
     }
@@ -35,6 +31,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('bookers');
+        Schema::dropIfExists('staff_ticketers');
     }
 };

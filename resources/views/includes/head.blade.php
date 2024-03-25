@@ -36,6 +36,8 @@
 
     <!--Date-Picker Stylesheet-->
     <link rel="stylesheet" href="{{asset('css/datepicker.css')}}">
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Magnific Gallery -->
     <link rel="stylesheet" href="{{asset('css/magnific-popup.css')}}">
